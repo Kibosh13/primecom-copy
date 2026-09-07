@@ -1,0 +1,38 @@
+# Credentials and private runtime data
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# Dependencies and generated output (the demo is published separately)
+node_modules/
+dist/
+build/
+out/
+coverage/
+.cache/
+.npm/
+validation.json
+link-audit.json
+javascript-validation.json
+*-validation.json
+
+# Local files, logs and archives
+*.log
+*.tmp
+*.part
+*.swp
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+.idea/
+.vscode/
+work/

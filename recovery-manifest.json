@@ -1,0 +1,4536 @@
+{
+  "pages": {
+    "https://prime-com.ru/": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:17:45.571013+00:00",
+      "original": "https://prime-com.ru/",
+      "file": "work/recovery/pages/89c1dc745d7f31146b9263b3.html",
+      "reason": "200",
+      "title": "КАТАЛОГ",
+      "bytes": 104149
+    },
+    "https://prime-com.ru/hydrogen/antiki.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812015055",
+      "original": "https://prime-com.ru/hydrogen/antiki.html",
+      "file": "work/recovery/commoncrawl/511925d954ebc8bba29113ae.html",
+      "title": "Каталог Антики",
+      "bytes": 67493,
+      "reason": "200 archived HTTP response",
+      "sha256": "af954b15ef64f20d31c42bbb3fe7c69e1ba77634c524e568c85deebfe89be776",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00451.warc.gz"
+    },
+    "https://prime-com.ru/hydrogen/gladkij-metallicheskij-lak.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717113238",
+      "original": "https://www.prime-com.ru/hydrogen/gladkij-metallicheskij-lak.html",
+      "file": "work/recovery/commoncrawl/c7ed32ac87578bab4ff17bc9.html",
+      "title": "Каталог гладких металликов",
+      "bytes": 68817,
+      "reason": "200 archived HTTP response",
+      "sha256": "9b5c5657d66e74969b640c4ab86723de88631a094f9b0aa3563420e8c4d34ef5",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00381.warc.gz"
+    },
+    "https://prime-com.ru/hydrogen/katalog-matovykh-krasok.html": {
+      "ok": true,
+      "timestamp": "20260612010317",
+      "original": "https://www.prime-com.ru/hydrogen/katalog-matovykh-krasok.html",
+      "file": "work/recovery/pages/9e89cc804e880015e0fce826.html",
+      "reason": "200",
+      "title": "Каталог матовых красок",
+      "bytes": 66073,
+      "liveRetryFailed": "curl: (28) Operation timed out after 110006 milliseconds with 0 bytes received"
+    },
+    "https://prime-com.ru/hydrogen/katalog-ral.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:21:24.903221+00:00",
+      "original": "https://prime-com.ru/hydrogen/katalog-ral.html",
+      "file": "work/recovery/pages/0ddc366f04b0d53f1cb52907.html",
+      "reason": "200",
+      "title": "Каталог RAL",
+      "bytes": 86340
+    },
+    "https://prime-com.ru/hydrogen/katalog-struktura-shagren.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:21:28.214169+00:00",
+      "original": "https://prime-com.ru/hydrogen/katalog-struktura-shagren.html",
+      "file": "work/recovery/pages/c4fa41f78ee8acce5ea1f2f7.html",
+      "reason": "200",
+      "title": "Каталог структура шагрень",
+      "bytes": 65599
+    },
+    "https://prime-com.ru/hydrogen/ral-classic-katalog.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:21:29.314396+00:00",
+      "original": "https://prime-com.ru/hydrogen/ral-classic-katalog.html",
+      "file": "work/recovery/pages/7b2c28726f7d86845e388393.html",
+      "reason": "200",
+      "title": "RAL каталог",
+      "bytes": 85985
+    },
+    "https://prime-com.ru/hydrogen/sertifikaty-pk.html": {
+      "ok": false,
+      "reason": "No HTML capture in the 2025–2026 archive index",
+      "resolvedBy": "/o-kompanii/sertifikaty-pk.html"
+    },
+    "https://prime-com.ru/hydrogen/specef1.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:22:44.640390+00:00",
+      "original": "https://prime-com.ru/hydrogen/specef1.html",
+      "file": "work/recovery/pages/2efdd64cd7fffbaec768d6d1.html",
+      "reason": "200",
+      "title": "Коллекция спецэффектов ЛАК Micropul",
+      "bytes": 66130
+    },
+    "https://prime-com.ru/hydrogen/tekstura-muar.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:22:46.330635+00:00",
+      "original": "https://prime-com.ru/hydrogen/tekstura-muar.html",
+      "file": "work/recovery/pages/9d569df640e20d62b3c89a42.html",
+      "reason": "200",
+      "title": "Каталог текстура муар",
+      "bytes": 68175
+    },
+    "https://prime-com.ru/index.php?Itemid=117&id=12&option=com_content&view=article": {
+      "ok": true,
+      "timestamp": "20260514003154",
+      "original": "https://prime-com.ru/index.php?option=com_content&view=article&id=12&Itemid=117",
+      "file": "work/recovery/pages/67e21d84dd11aa4cc516b3f9.html",
+      "reason": "200",
+      "title": "Коллекция спецэффектов ЛАК Micropul",
+      "bytes": 64237,
+      "liveRetryFailed": "curl: (28) Operation timed out after 110006 milliseconds with 0 bytes received"
+    },
+    "https://prime-com.ru/index.php?Itemid=119&id=14&option=com_content&view=article": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812022326",
+      "original": "https://prime-com.ru/index.php?option=com_content&view=article&id=14&Itemid=119",
+      "file": "work/recovery/commoncrawl/b7aee29da0f98bfe330eb363.html",
+      "title": "Аэрозольные баллоны по RAL",
+      "bytes": 67582,
+      "reason": "200 archived HTTP response",
+      "sha256": "b0500534811f28323e4901419b74842e12a3776bc750debc5d9428b7d8e4c2bc",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00540.warc.gz"
+    },
+    "https://prime-com.ru/index.php?id=24&option=com_content&view=article": {
+      "ok": true,
+      "timestamp": "20260514022349",
+      "original": "https://prime-com.ru/index.php?option=com_content&view=article&id=24",
+      "file": "work/recovery/pages/f8c651d05589381516972bce.html",
+      "reason": "200",
+      "title": "prime-com",
+      "bytes": 61918,
+      "liveRetryFailed": "curl: (28) Operation timed out after 110009 milliseconds with 0 bytes received"
+    },
+    "https://prime-com.ru/index.php?id=26&option=com_content&view=article": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:26:20.235259+00:00",
+      "original": "https://prime-com.ru/index.php?id=26&option=com_content&view=article",
+      "file": "work/recovery/pages/8743214f88ea6476008323dc.html",
+      "reason": "200",
+      "title": "prime-com",
+      "bytes": 70222
+    },
+    "https://prime-com.ru/index.php?id=27&option=com_content&view=article": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:26:20.755803+00:00",
+      "original": "https://prime-com.ru/index.php?id=27&option=com_content&view=article",
+      "file": "work/recovery/pages/52cf30beac91034319f7bf7f.html",
+      "reason": "200",
+      "title": "prime-com",
+      "bytes": 71013
+    },
+    "https://prime-com.ru/index.php?id=28&option=com_content&view=article": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:26:20.984239+00:00",
+      "original": "https://prime-com.ru/index.php?id=28&option=com_content&view=article",
+      "file": "work/recovery/pages/5f5a2ee722926c0436d9cca9.html",
+      "reason": "200",
+      "title": "prime-com",
+      "bytes": 63119
+    },
+    "https://prime-com.ru/novosti-i-stati.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111230",
+      "original": "https://www.prime-com.ru/novosti-i-stati.html",
+      "file": "work/recovery/commoncrawl/bdd2b2546aabf501d281d752.html",
+      "title": "Полезная информация",
+      "bytes": 65113,
+      "reason": "200 archived HTTP response",
+      "sha256": "ee7759d46ec23f791f811b6111d7ecf56466e85833ea89b741be390c3eb74c01",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00025.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/5-rabochikh-strategij.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812021652",
+      "original": "https://prime-com.ru/novosti-i-stati/5-rabochikh-strategij.html",
+      "file": "work/recovery/commoncrawl/cfbbd7b97754c6b0aa92bb17.html",
+      "title": "5 рабочих стратегий",
+      "bytes": 130630,
+      "reason": "200 archived HTTP response",
+      "sha256": "09698e142a8e06e2c87488c5b2019bbbe1959c2a776ef8b0e2a963cc55f8562e",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00224.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/mikropul-kraska-tgic-free.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111314",
+      "original": "https://www.prime-com.ru/novosti-i-stati/mikropul-kraska-tgic-free.html",
+      "file": "work/recovery/commoncrawl/1005e509a5ef0ecae722fad0.html",
+      "title": "Микропул краска TGIC FREE",
+      "bytes": 67704,
+      "reason": "200 archived HTTP response",
+      "sha256": "b192f4d42541302b068a18797c37e7e5afabdd9fe68b12620d82158e326e3456",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00112.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812021024",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm.html",
+      "file": "work/recovery/commoncrawl/ef94d3708f26ac6832df3a40.html",
+      "title": "Новости ЛКМ",
+      "bytes": 68355,
+      "reason": "200 archived HTTP response",
+      "sha256": "90b129de2251b784057be61172635f18641b359f22f2f6177b104d8ada28eb07",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00480.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/analiz-rynka-poroshkovykh-krasok.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717114335",
+      "original": "https://www.prime-com.ru/novosti-i-stati/novosti-lkm/analiz-rynka-poroshkovykh-krasok.html",
+      "file": "work/recovery/commoncrawl/86389c92e9914b9eea13e243.html",
+      "title": "Анализ рынка порошковых красок",
+      "bytes": 70069,
+      "reason": "200 archived HTTP response",
+      "sha256": "af4f9c6de67434494d6ab7c14e4217f628eebfb632d6bf5e3e216d7baa226150",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00201.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/novosti-kalkulyator-raskhoda-poroshkovoj-kraski.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812015330",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/novosti-kalkulyator-raskhoda-poroshkovoj-kraski.html",
+      "file": "work/recovery/commoncrawl/09ae264bcc15fb5c2f1ae5c2.html",
+      "title": "Новости Калькулятор расхода порошковой краски",
+      "bytes": 69451,
+      "reason": "200 archived HTTP response",
+      "sha256": "c5428105c0781cf662754877dc8c617b17047562f40263d503ae9fd0d3168337",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00302.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/ottenki-po-vozrastu.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20250321202508",
+      "original": "https://www.prime-com.ru/novosti-i-stati/novosti-lkm/ottenki-po-vozrastu.html",
+      "file": "work/recovery/archive-fill/d201a77440b8cc2786eface6.html",
+      "title": "Оттенки по возрасту",
+      "bytes": 62754,
+      "reason": "200"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/pigmenty-dlya-poroshkovykh-krasok.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:31:50.012005+00:00",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/pigmenty-dlya-poroshkovykh-krasok.html",
+      "file": "work/recovery/pages/027f82bae6b5d7c417a59d1a.html",
+      "reason": "200",
+      "title": "Пигменты для порошковых красок",
+      "bytes": 67851
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/poroshkovaya-kraska-eto.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720093728",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/poroshkovaya-kraska-eto.html",
+      "file": "work/recovery/commoncrawl/aab80d8a2d4413e1c3d1cd70.html",
+      "title": "Порошковая краска это",
+      "bytes": 81279,
+      "reason": "200 archived HTTP response",
+      "sha256": "5b91e0781ac6ead40b40d5e6244ba5dec96d04249417dc37484900821647ee0b",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00360.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/predvaritelnaya-obrabotka.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:31:50.252569+00:00",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/predvaritelnaya-obrabotka.html",
+      "file": "work/recovery/pages/4c1d04f6dae18548983bae5b.html",
+      "reason": "200",
+      "title": "Предварительная обработка",
+      "bytes": 78989
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/sistema-rekuperatsii.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:31:52.225938+00:00",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/sistema-rekuperatsii.html",
+      "file": "work/recovery/pages/297ac0d87127dc27c0893fb8.html",
+      "reason": "200",
+      "title": "Система рекуперации",
+      "bytes": 70490
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/tsvetovoj-krug.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812015229",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/tsvetovoj-krug.html",
+      "file": "work/recovery/commoncrawl/3d93cf285d4a9d343f1decda.html",
+      "title": "Цветовой круг",
+      "bytes": 65441,
+      "reason": "200 archived HTTP response",
+      "sha256": "df02b315057f47f24deff512fa244169dbded18250de97a942affe610d1101a6",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00973.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/vybor-tsveta.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812020701",
+      "original": "https://prime-com.ru/novosti-i-stati/novosti-lkm/vybor-tsveta.html",
+      "file": "work/recovery/commoncrawl/d93034d7a43aa87a7d6d493d.html",
+      "title": "Выбор цвета",
+      "bytes": 67538,
+      "reason": "200 archived HTTP response",
+      "sha256": "889d06ca5e0c67980974d3bc5e1e3bbdc3c9b7a6f89fe8a334295acdcc3f8f25",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00933.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej.html": {
+      "ok": true,
+      "source": "reconstructed-index",
+      "original": "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej.html",
+      "file": "work/recovery/presentations-category.html",
+      "title": "Презентации возможностей",
+      "bytes": 32637,
+      "reason": "Original category URL timed out and has no available archive; index rebuilt using its seven existing navigation links."
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/bondirovannye-metalliki.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812032107",
+      "original": "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/bondirovannye-metalliki.html",
+      "file": "work/recovery/commoncrawl/64c66690508d3f13488893da.html",
+      "title": "Бондированные металлики",
+      "bytes": 67804,
+      "reason": "200 archived HTTP response",
+      "sha256": "a2fd5dd9d8a104afa1eb4680a7b9bee0f8adeb2ef26fd98cf2baa75acd9d7a4a",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00844.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/kraska-dlya-dverej.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112104",
+      "original": "https://www.prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/kraska-dlya-dverej.html",
+      "file": "work/recovery/commoncrawl/5e1d2304263064d31245653d.html",
+      "title": "Краска для дверей",
+      "bytes": 63682,
+      "reason": "200 archived HTTP response",
+      "sha256": "159e5eb37ec5e864943f21c91b13807e7831373b434424df83eca5b7dc0d0027",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00477.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/micropul-dlya-stalnykh-konstruktsij.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111415",
+      "original": "https://www.prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/micropul-dlya-stalnykh-konstruktsij.html",
+      "file": "work/recovery/commoncrawl/2c611e806d658639fd6f618f.html",
+      "title": "Micropul для стальных конструкций",
+      "bytes": 64299,
+      "reason": "200 archived HTTP response",
+      "sha256": "493633151f9d0f3e8f0cfcaa2b17c06965a705d1d646928dbed66448c5985fe0",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00775.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/novaya-era-metallicheskoj-mebeli.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260811113642",
+      "original": "https://www.prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/novaya-era-metallicheskoj-mebeli.html",
+      "file": "work/recovery/commoncrawl/60a49c3663aa368fbef8451f.html",
+      "title": "Новая эра металлической мебели",
+      "bytes": 64358,
+      "reason": "200 archived HTTP response",
+      "sha256": "5a695d93894c18bde1639f1fba04d5b26415e6c5b1df93ab437ae16634691fe1",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385416.52/warc/CC-MAIN-20260811102717-20260811132717-00700.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/okraska-alyuminievogo-profilya.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717110447",
+      "original": "https://www.prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/okraska-alyuminievogo-profilya.html",
+      "file": "work/recovery/commoncrawl/e064519975816d82e7575c78.html",
+      "title": "Окраска алюминиевого профиля",
+      "bytes": 64009,
+      "reason": "200 archived HTTP response",
+      "sha256": "29f7c310ab74b5fe43953dbffbed8a2a03e796bb137e0570a72c042d87024c89",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00792.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/seriya-muar.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112743",
+      "original": "https://www.prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/seriya-muar.html",
+      "file": "work/recovery/commoncrawl/cfd6fde0ec1f5c624ed373df.html",
+      "title": "Серия муар",
+      "bytes": 67668,
+      "reason": "200 archived HTTP response",
+      "sha256": "34fe06ff949b7844898d9baae6e203a28f42dff788611aae5d5a9c18e5bd3be5",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00317.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/zolotoj-metallik.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720103418",
+      "original": "https://prime-com.ru/novosti-i-stati/prezentatsii-vozmozhnostej/zolotoj-metallik.html",
+      "file": "work/recovery/commoncrawl/cb392ed28626776077b1c8b2.html",
+      "title": "Золотой металлик",
+      "bytes": 68500,
+      "reason": "200 archived HTTP response",
+      "sha256": "d6c38e4d1e6fae8a0c899a83dce7f73dfdf5abf59e0e43e394f0434a08ccc7da",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00634.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/umnyj-chat-bot.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717113140",
+      "original": "https://www.prime-com.ru/novosti-i-stati/umnyj-chat-bot.html",
+      "file": "work/recovery/commoncrawl/3d0ac735997513e4adfe2136.html",
+      "title": "Умный чат-бот",
+      "bytes": 67861,
+      "reason": "200 archived HTTP response",
+      "sha256": "05702805b457b79e1fee0a571a15744ff4a8ecbf512d91e452197b9ac7db511f",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00682.warc.gz"
+    },
+    "https://prime-com.ru/novosti-i-stati/zolotoj-metallik.html": {
+      "ok": false,
+      "reason": "No HTML capture in the 2025–2026 archive index",
+      "resolvedBy": "/novosti-i-stati/prezentatsii-vozmozhnostej/zolotoj-metallik.html"
+    },
+    "https://prime-com.ru/o-kompanii.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720095612",
+      "original": "https://prime-com.ru/o-kompanii.html",
+      "file": "work/recovery/commoncrawl/d9ffeca1149ddd099977cbd2.html",
+      "title": "О Компании",
+      "bytes": 66427,
+      "reason": "200 archived HTTP response",
+      "sha256": "3f01cd9f357ff870cd61e82c6470a86f79567dc775bd7cef92a557cc2ae68231",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00406.warc.gz"
+    },
+    "https://prime-com.ru/o-kompanii/kontakty.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112517",
+      "original": "https://www.prime-com.ru/o-kompanii/kontakty.html",
+      "file": "work/recovery/commoncrawl/5b766e1cf76adee84b7cc431.html",
+      "title": "Контакты",
+      "bytes": 74149,
+      "reason": "200 archived HTTP response",
+      "sha256": "d8417e820bb42b86a50cc8cce2790581e883127132392e594d3a069b39397c6b",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00821.warc.gz"
+    },
+    "https://prime-com.ru/o-kompanii/oplata-i-dostavka.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812030349",
+      "original": "https://prime-com.ru/o-kompanii/oplata-i-dostavka.html",
+      "file": "work/recovery/commoncrawl/893afe895f026a453e25c208.html",
+      "title": "Оплата и доставка",
+      "bytes": 66142,
+      "reason": "200 archived HTTP response",
+      "sha256": "6ca1ca6fa7b00e21839b3103fb4db5542a70e9f5c367c60d067d9b4379043e44",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00920.warc.gz"
+    },
+    "https://prime-com.ru/o-kompanii/pochemu-tdprajmkom.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112910",
+      "original": "https://www.prime-com.ru/o-kompanii/pochemu-tdprajmkom.html",
+      "file": "work/recovery/commoncrawl/45b22674e290aad9003ff372.html",
+      "title": "Почему ТДПРАЙМКОМ",
+      "bytes": 70742,
+      "reason": "200 archived HTTP response",
+      "sha256": "f7705d8a2ca3bff0085d9bd2343d5dcb608610a3ee8c4d5e5c12a142c5c8f13d",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00739.warc.gz"
+    },
+    "https://prime-com.ru/o-kompanii/sertifikaty-pk.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812022826",
+      "original": "https://prime-com.ru/o-kompanii/sertifikaty-pk.html",
+      "file": "work/recovery/commoncrawl/72cde79e29fc4da3c52e0a5b.html",
+      "title": "Сертификаты ПК",
+      "bytes": 67131,
+      "reason": "200 archived HTTP response",
+      "sha256": "01afddf6d85bc219d22c4ea6b5e2bd936841141b67aef7aead4d5e526d42bb7c",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00824.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812023218",
+      "original": "https://prime-com.ru/oborudovanie.html",
+      "file": "work/recovery/commoncrawl/62263cd7fb83cb020259dcb3.html",
+      "title": "ОБОРУДОВАНИЕ",
+      "bytes": 65917,
+      "reason": "200 archived HTTP response",
+      "sha256": "c4915b49530d365c1e90822ec1fe426b59800cd70a7b0d2400ef05502465bf05",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00523.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/bak-s-plastinoj-ozhizheniya-dlya-poroshkovoj-kraski.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720101046",
+      "original": "https://prime-com.ru/oborudovanie/bak-s-plastinoj-ozhizheniya-dlya-poroshkovoj-kraski.html",
+      "file": "work/recovery/commoncrawl/fcffa58798c4785ccafee61c.html",
+      "title": "Бак с пластиной ожижения для порошковой краски",
+      "bytes": 66909,
+      "reason": "200 archived HTTP response",
+      "sha256": "49d74aaa9e1254a841fc59d28500a7ce3e72c091a4bf5ebf809448ef14335784",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00598.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/ezhektor.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717110538",
+      "original": "https://www.prime-com.ru/oborudovanie/ezhektor.html",
+      "file": "work/recovery/commoncrawl/0d7712e704a35ef85d4d79f7.html",
+      "title": "Эжектор",
+      "bytes": 64248,
+      "reason": "200 archived HTTP response",
+      "sha256": "8473ec17ca9fb3a67b7d479eb2ce698192e028817df98ae9fd72eead21d67c79",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00403.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-okraski-tsl-m5.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717120901",
+      "original": "https://www.prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-okraski-tsl-m5.html",
+      "file": "work/recovery/commoncrawl/f5924a446314353fc160629a.html",
+      "title": "Оборудование для порошковой окраски TSL M5",
+      "bytes": 73667,
+      "reason": "200 archived HTTP response",
+      "sha256": "c25c0edcb2b2fc3043a0a20e66a235967a6211191285145aa55e353fe8133a0c",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00964.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-okraski-tsl-m7-s-vibrostolom.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260811112314",
+      "original": "https://www.prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-okraski-tsl-m7-s-vibrostolom.html",
+      "file": "work/recovery/commoncrawl/2b40f293544e5f9c3a1c7b39.html",
+      "title": "Оборудование для порошковой окраски TSL M7 с вибростолом",
+      "bytes": 73888,
+      "reason": "200 archived HTTP response",
+      "sha256": "25c6ece6e48e326c3bfc7f175b735fb4b0fa5d77702998474449180c942a956a",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385416.52/warc/CC-MAIN-20260811102717-20260811132717-00865.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-pokraski-tesla-profi-3.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720092151",
+      "original": "https://prime-com.ru/oborudovanie/oborudovanie-dlya-poroshkovoj-pokraski-tesla-profi-3.html",
+      "file": "work/recovery/commoncrawl/160c2b9305cac0055e090613.html",
+      "title": "Распылитель для порошковой покраски Tesla Profi 3",
+      "bytes": 68684,
+      "reason": "200 archived HTTP response",
+      "sha256": "691d70a0a0e47fae7d271e2250c3e7be8b3fb381c3774b219fad1a0bf59d6295",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00689.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/tesla.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720092245",
+      "original": "https://prime-com.ru/oborudovanie/tesla.html",
+      "file": "work/recovery/commoncrawl/6dd5b67df81c93523a5030ff.html",
+      "title": "Оборудование Tesla Profi 3",
+      "bytes": 69668,
+      "reason": "200 archived HTTP response",
+      "sha256": "3ac3d822f3b878b9173b5e02304dc93379c7caf12925ec752d7360181dd292fe",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00843.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/tribostaticheskij-raspylitel-tsl-tribomax.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720092710",
+      "original": "https://prime-com.ru/oborudovanie/tribostaticheskij-raspylitel-tsl-tribomax.html",
+      "file": "work/recovery/commoncrawl/5041e48d576246473a5c1f30.html",
+      "title": "Трибостатический распылитель TSL TriboMAX",
+      "bytes": 64657,
+      "reason": "200 archived HTTP response",
+      "sha256": "ae8dd404df355af8215a86878e3407819e0c3f9bb379f5605bd5e2302a6cdcb2",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00915.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/ustanovka-dlya-naneseniya-poroshkovoj-kraski-tsl-m3-light.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111355",
+      "original": "https://www.prime-com.ru/oborudovanie/ustanovka-dlya-naneseniya-poroshkovoj-kraski-tsl-m3-light.html",
+      "file": "work/recovery/commoncrawl/d42a439b581cd7d972701b81.html",
+      "title": "Установка для нанесения порошковой краски TSL M3XL",
+      "bytes": 73649,
+      "reason": "200 archived HTTP response",
+      "sha256": "62b29f456c19c24cf17405d0be6f9cf3c08a02a2cebfecf014df0c218070946a",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00787.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/vibrosito-tsl-vibro.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812014648",
+      "original": "https://prime-com.ru/oborudovanie/vibrosito-tsl-vibro.html",
+      "file": "work/recovery/commoncrawl/ef9eacdc2160b4aa24cb469a.html",
+      "title": "Вибросито TSL Vibro",
+      "bytes": 66908,
+      "reason": "200 archived HTTP response",
+      "sha256": "784a90bd4bec271ed5f0b81b713e268bba73e184e7bb7f8f622a9dc3c26307d7",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00878.warc.gz"
+    },
+    "https://prime-com.ru/produktsiya.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112405",
+      "original": "https://www.prime-com.ru/produktsiya.html",
+      "file": "work/recovery/commoncrawl/9018c3958abee890aca5780a.html",
+      "title": "ПРОДУКЦИЯ",
+      "bytes": 71040,
+      "reason": "200 archived HTTP response",
+      "sha256": "c8a6fc694275da1b1bb35950c2a79b58593861329145f2aa3db0c8ea7a7ee632",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00326.warc.gz"
+    },
+    "https://prime-com.ru/produktsiya/professionalnye-sprei-na-akrilovoj-osnove.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812023730",
+      "original": "https://prime-com.ru/produktsiya/professionalnye-sprei-na-akrilovoj-osnove.html",
+      "file": "work/recovery/commoncrawl/1e6b8e903c26d92706e50955.html",
+      "title": "Аэрозольные баллоны по RAL",
+      "bytes": 67626,
+      "reason": "200 archived HTTP response",
+      "sha256": "747f98e4629e75284b8b337e593607b0347e8e7377a79806f1c11465dcd433aa",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00388.warc.gz"
+    },
+    "https://prime-com.ru/produktsiya/shpatlevka-primapox-refit.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812025048",
+      "original": "https://prime-com.ru/produktsiya/shpatlevka-primapox-refit.html",
+      "file": "work/recovery/commoncrawl/1710ca754c0d9ae6740f39bd.html",
+      "title": "Шпатлевка primapox refit",
+      "bytes": 66289,
+      "reason": "200 archived HTTP response",
+      "sha256": "f6b5d63ce5a71cad5daf17fcbfced69c1c9224c87494901cdae4b74de56d3390",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00589.warc.gz"
+    },
+    "https://prime-com.ru/produktsiya/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a25.html": {
+      "ok": false,
+      "reason": "No HTML capture in the 2025–2026 archive index",
+      "resolvedBy": "/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a25.html"
+    },
+    "https://prime-com.ru/produktsiya/sredstva-individualnoj-zashchity.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111335",
+      "original": "https://www.prime-com.ru/produktsiya/sredstva-individualnoj-zashchity.html",
+      "file": "work/recovery/commoncrawl/55df928d1f6bc34a48d32bb3.html",
+      "title": "Средства защиты",
+      "bytes": 76780,
+      "reason": "200 archived HTTP response",
+      "sha256": "f786032636717ce3bd7e88832933242af3a9e7748a614dec92a08e9553b58179",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00248.warc.gz"
+    },
+    "https://prime-com.ru/produktsiya/tsinkosoderzhashchij-g305.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812020317",
+      "original": "https://prime-com.ru/produktsiya/tsinkosoderzhashchij-g305.html",
+      "file": "work/recovery/commoncrawl/3439451b9422655098a40f93.html",
+      "title": "ЦИНКОСОДЕРЖАЩИЙ G305",
+      "bytes": 66600,
+      "reason": "200 archived HTTP response",
+      "sha256": "eb7214fa33211da3e294175b84dd6cc07201db0fb9df798ca78a0e15769a0561",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00431.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812020828",
+      "original": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti.html",
+      "file": "work/recovery/commoncrawl/fdd11a784adc23763ab2a35f.html",
+      "title": "ХИМИЯ ДЛЯ МЕТАЛЛА",
+      "bytes": 69312,
+      "reason": "200 archived HTTP response",
+      "sha256": "c4f83b6b8b8f92ab481e0c9cc8ff67f1ca2085a3a8a82475f69c8087062d2cbb",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00910.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/glantsklar.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112706",
+      "original": "https://www.prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/glantsklar.html",
+      "file": "work/recovery/commoncrawl/b357eaf3d374dfe87c44dec4.html",
+      "title": "Моющее средство Гланцклар",
+      "bytes": 86299,
+      "reason": "200 archived HTTP response",
+      "sha256": "1c106bbfc369d533db6656e18c83829c44977ea5f7747cf7aec141b623de792b",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00595.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/kalkshtajnlezer.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812031046",
+      "original": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/kalkshtajnlezer.html",
+      "file": "work/recovery/commoncrawl/de90261bd172fc0d657716cb.html",
+      "title": "КАЛЬКШТАЙНЛЕЗЕР",
+      "bytes": 64415,
+      "reason": "200 archived HTTP response",
+      "sha256": "52cfb2e47f56b3824370fb44b03b5b1010078e1d057efdca518fb4f550400bf9",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00522.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/khimicheskij-preobrazovatel-rzhavchiny-hotex-k.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717111739",
+      "original": "https://www.prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/khimicheskij-preobrazovatel-rzhavchiny-hotex-k.html",
+      "file": "work/recovery/commoncrawl/e2328662f3f0fbfddae899c0.html",
+      "title": "Химический преобразователь ржавчины HOTEX-K",
+      "bytes": 74388,
+      "reason": "200 archived HTTP response",
+      "sha256": "319d82f13672810952c827617086f06d43713d84da2028a0801792ede5f38439",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00776.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812024357",
+      "original": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html",
+      "file": "work/recovery/commoncrawl/c04af073ef4816ab0201900b.html",
+      "title": "Моющее средство Райнигер",
+      "bytes": 75246,
+      "reason": "200 archived HTTP response",
+      "sha256": "db454ff9210026e9b15bdfa5064b25f6fd6050cc8da9b86aafa77496a178ae83",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00935.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/moyushchij-rastvoritel-alt-602-218.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260720104400",
+      "original": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/moyushchij-rastvoritel-alt-602-218.html",
+      "file": "work/recovery/commoncrawl/be5dc768134d6df6e99a29ec.html",
+      "title": "Моющий растворитель АЛТ 602/218",
+      "bytes": 70431,
+      "reason": "200 archived HTTP response",
+      "sha256": "ba8a540c1914121e25540e215cd8a4be64dc362e3184e5893677bdf1c9547c7c",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663952438.3/warc/CC-MAIN-20260720091112-20260720121112-00147.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a20n.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717112322",
+      "original": "https://www.prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a20n.html",
+      "file": "work/recovery/commoncrawl/3b663fcf26ce5c7fc8b84e5e.html",
+      "title": "Смывка APS-A20N",
+      "bytes": 70950,
+      "reason": "200 archived HTTP response",
+      "sha256": "15391f18da65b709f3f9f0fd72bd7a505e18be2860b429dcb07ae79df6bd9ea8",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00964.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a25.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260812025912",
+      "original": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-a25.html",
+      "file": "work/recovery/commoncrawl/178e19d5275829cd622911e7.html",
+      "title": "Смывка APS-A25",
+      "bytes": 71776,
+      "reason": "200 archived HTTP response",
+      "sha256": "2c407fca31af656afe69312e74dcb5a432a5dd1ba337cc95881b09afeb1ff6d4",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385444.26/warc/CC-MAIN-20260812014208-20260812044208-00458.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-m10.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260717105048",
+      "original": "https://www.prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-m10.html",
+      "file": "work/recovery/commoncrawl/545e544dfb5369d8c5e0541b.html",
+      "title": "Смывка APS-M10",
+      "bytes": 76874,
+      "reason": "200 archived HTTP response",
+      "sha256": "7d4e54c85f40ec9bf45c97a67a71f7b55b473d149fc9e5670fb552902cf6d618",
+      "archiveFile": "crawl-data/CC-MAIN-2026-30/segments/1783663951904.31/warc/CC-MAIN-20260717103357-20260717133357-00459.warc.gz"
+    },
+    "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-t20-dlya-kryuchkov.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20260511233605",
+      "original": "https://www.prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/smyvka-aps-t20-dlya-kryuchkov.html",
+      "file": "work/recovery/archive-fill/84f11bc8ab26abcda67023c3.html",
+      "title": "Смывка APS-T20 для крючков",
+      "bytes": 67996,
+      "reason": "200"
+    },
+    "https://prime-com.ru/hydrogen/bonded-metallic-series.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20260612022902",
+      "original": "https://www.prime-com.ru/hydrogen/bonded-metallic-series.html",
+      "file": "work/recovery/pages/64548c33bd91d648734ffe4d.html",
+      "reason": "200",
+      "title": "BONDED METALLIC SERIES",
+      "bytes": 69465
+    },
+    "https://prime-com.ru/novosti-i-stati/za-kachestvo-my-platim-vperjod-za-ego-otsutstvie-pozzhe.html": {
+      "ok": true,
+      "source": "live",
+      "retrievedAt": "2026-09-07T08:34:49.608480+00:00",
+      "file": "work/prime-com-discovery/live-quality-article.html",
+      "original": "https://prime-com.ru/novosti-i-stati/za-kachestvo-my-platim-vperjod-za-ego-otsutstvie-pozzhe.html",
+      "title": "За качество мы платим вперёд, за его отсутствие — позже.",
+      "bytes": 70249,
+      "reason": "200"
+    },
+    "https://prime-com.ru/o-kompanii/priglashaem-ip-i-ooo-stat-agentami-po-prodazham-poroshkovoj-kraski-micropul.html": {
+      "ok": true,
+      "source": "commoncrawl",
+      "timestamp": "20260811115601",
+      "original": "https://www.prime-com.ru/o-kompanii/priglashaem-ip-i-ooo-stat-agentami-po-prodazham-poroshkovoj-kraski-micropul.html",
+      "file": "work/recovery/commoncrawl/473dd54019bc3b2c9a969459.html",
+      "title": "Приглашаем ИП и ООО стать агентами по продажам порошковой краски MICROPUL",
+      "bytes": 68262,
+      "reason": "200 archived HTTP response",
+      "sha256": "935e5bcd01d28d9a04fe75f11bbad4ea151fbca3f60b2b6958e7854953d05c7a",
+      "archiveFile": "crawl-data/CC-MAIN-2026-34/segments/1786091385416.52/warc/CC-MAIN-20260811102717-20260811132717-00245.warc.gz"
+    },
+    "https://prime-com.ru/oborudovanie/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html": {
+      "ok": false,
+      "reason": "No HTML capture in the 2025–2026 archive index",
+      "resolvedBy": "/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html"
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/kraska-menyayushchaya-tsvet.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20250321205832",
+      "original": "https://www.prime-com.ru/novosti-i-stati/novosti-lkm/kraska-menyayushchaya-tsvet.html",
+      "file": "work/recovery/pages/0e8621a8a298d8e849267336.html",
+      "reason": "200",
+      "title": "Краска меняющая цвет",
+      "bytes": 62498
+    },
+    "https://prime-com.ru/novosti-i-stati/novosti-lkm/problemy-s-parallelnym-importom.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20250321202815",
+      "original": "https://www.prime-com.ru/novosti-i-stati/novosti-lkm/problemy-s-parallelnym-importom.html",
+      "file": "work/recovery/pages/cc125b37f0cc1055d4be79b7.html",
+      "reason": "200",
+      "title": "Проблемы с параллельным импортом",
+      "bytes": 63020
+    },
+    "https://prime-com.ru/novosti-i-stati/rost-kursa-valyut.html": {
+      "ok": true,
+      "source": "archive",
+      "timestamp": "20250321211232",
+      "original": "https://www.prime-com.ru/novosti-i-stati/rost-kursa-valyut.html",
+      "file": "work/recovery/pages/47fd564139302b6d81eff509.html",
+      "reason": "200",
+      "title": "Рост курса валют",
+      "bytes": 65513
+    }
+  },
+  "assets": {
+    "https://prime-com.ru/images/2024-05-22_17-36-17.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-05-22_17-36-17.png",
+      "reason": "200",
+      "bytes": 724843
+    },
+    "https://prime-com.ru/images/9Lkq.gif": {
+      "ok": true,
+      "source": "live",
+      "path": "images/9Lkq.gif",
+      "reason": "200",
+      "bytes": 26843055
+    },
+    "https://prime-com.ru/images/banners/KATALOG-K7-MICROPUL.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/KATALOG-K7-MICROPUL.jpg",
+      "reason": "200",
+      "bytes": 1564054
+    },
+    "https://prime-com.ru/images/banners/iplana1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/iplana1.jpg",
+      "reason": "200",
+      "bytes": 269061
+    },
+    "https://prime-com.ru/images/banners/iplana3.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/banners/iplana3.jpg",
+      "reason": "200",
+      "bytes": 124819
+    },
+    "https://prime-com.ru/images/banners/powder_pigment.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/banners/powder_pigment.jpg",
+      "reason": "200",
+      "bytes": 513742
+    },
+    "https://prime-com.ru/images/banners/zvetavto.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/banners/zvetavto.jpg",
+      "reason": "200",
+      "bytes": 34232
+    },
+    "https://prime-com.ru/images/dveri/Jf2Pn_ZaIG04DPO-.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/dveri/Jf2Pn_ZaIG04DPO-.jpg",
+      "reason": "200",
+      "bytes": 119048
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x1.png.pagespeed.ic.LMiWbmZiu_.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/karusel/new_karusel/x1.png.pagespeed.ic.LMiWbmZiu_.jpg",
+      "reason": "200",
+      "bytes": 1758125
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x10.png.pagespeed.ic.j8ea0jnSqB.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/karusel/new_karusel/x10.png.pagespeed.ic.j8ea0jnSqB.jpg",
+      "reason": "200",
+      "bytes": 2227888
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x2.png.pagespeed.ic.sSkTtMMq-j.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/x2.png.pagespeed.ic.sSkTtMMq-j.png",
+      "reason": "200",
+      "bytes": 1461662
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x4.png.pagespeed.ic.5oJkE7dpRG.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/x4.png.pagespeed.ic.5oJkE7dpRG.png",
+      "reason": "200",
+      "bytes": 1130787
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x5.png.pagespeed.ic.KbciLqrPLc.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/karusel/new_karusel/x5.png.pagespeed.ic.KbciLqrPLc.jpg",
+      "reason": "200",
+      "bytes": 1841945
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x7.png.pagespeed.ic.HBoDoOc4GD.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/x7.png.pagespeed.ic.HBoDoOc4GD.jpg",
+      "reason": "200",
+      "bytes": 399871
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x8.png.pagespeed.ic.BLZy0BIJW8.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/x8.png.pagespeed.ic.BLZy0BIJW8.jpg",
+      "reason": "200",
+      "bytes": 322003
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/x9.png.pagespeed.ic.v3FzCBgD8h.jpg": {
+      "ok": true,
+      "source": "archive",
+      "path": "images/karusel/new_karusel/x9.png.pagespeed.ic.v3FzCBgD8h.jpg",
+      "reason": "200",
+      "bytes": 2003186
+    },
+    "https://prime-com.ru/images/mebel_mettallic/klas_new_era1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/klas_new_era1.jpg",
+      "reason": "200",
+      "bytes": 95272
+    },
+    "https://prime-com.ru/images/original_foto/BUXCuaHNxVgMB9qp.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/original_foto/BUXCuaHNxVgMB9qp.jpg",
+      "reason": "200",
+      "bytes": 132014
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/9Lkq.gif": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/9Lkq.gif",
+      "reason": "200",
+      "bytes": 26843055
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/sprei1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/sprei1.jpg",
+      "reason": "200",
+      "bytes": 109501
+    },
+    "https://prime-com.ru/images/zoloto/zoopark.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/zoloto/zoopark.jpg",
+      "reason": "200",
+      "bytes": 337200
+    },
+    "https://prime-com.ru/media/gantry5/assets/js/main.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/js/main.js",
+      "reason": "200",
+      "bytes": 147174
+    },
+    "https://prime-com.ru/media/jui,_js,_jquery-noconflict.js,q32f5195492218a6469ad7e252ff10bde+jui,_js,_jquery-migrate.min.js,q32f5195492218a6469ad7e252ff10bde+system,_js,_caption.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jc.Wxzgu8EUYC.js": {
+      "ok": true,
+      "source": "live",
+      "path": "__assets/50f89b04440159a943ef77fb.js",
+      "reason": "200",
+      "bytes": 10811
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/jquery.min.js",
+      "reason": "200",
+      "bytes": 97646
+    },
+    "https://prime-com.ru/media/system/js/core.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/core.js",
+      "reason": "200",
+      "bytes": 8735
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/mootools-core.js",
+      "reason": "200",
+      "bytes": 83893
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/mootools-more.js",
+      "reason": "200",
+      "bytes": 236825
+    },
+    "https://prime-com.ru/plugins,_system,_rokbox,_assets,_styles,_rokbox.css+templates,_g5_helium,_custom,_uikit,_css,_uikit.min.css+media,_gantry5,_engines,_nucleus,_css-compiled,_nucleus.css+templates,_g5_helium,_custom,_css-compiled,_helium_19.css+media,_gantry5,_assets,_css,_font-awesome.min.css+templates,_g5_helium,_custom,_css-compiled,_helium-joomla_19.css+templates,_g5_helium,_custom,_css-compiled,_custom_19.css+templates,_g5_helium,_custom,_css,_animate.min.css.pagespeed.cc.QiHtMkFF5Y.css": {
+      "ok": true,
+      "source": "archive",
+      "path": "__assets/626233676fcd3540dea0cc94.css",
+      "reason": "200",
+      "bytes": 351521
+    },
+    "https://prime-com.ru/plugins/system/rokbox/assets/js/rokbox.js": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "plugins/system/rokbox/assets/js/rokbox.js",
+      "reason": "existing download",
+      "bytes": 106370
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/1.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/custom/images/1.jpg",
+      "reason": "existing download",
+      "bytes": 1541539
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/bot_PrimeExpert.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/custom/images/bot_PrimeExpert.jpg",
+      "reason": "existing download",
+      "bytes": 37552
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/kartinka_blog_news.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/custom/images/kartinka_blog_news.jpg",
+      "reason": "existing download",
+      "bytes": 217702
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/primecom/S-COMPOSITcub.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/custom/images/primecom/S-COMPOSITcub.jpg",
+      "reason": "existing download",
+      "bytes": 216852
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/xlogo.png.pagespeed.ic.HwpfsIDMVQ.png": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/images/xlogo.png.pagespeed.ic.HwpfsIDMVQ.png",
+      "reason": "200",
+      "bytes": 6889
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/js/wow.min.js": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/js/wow.min.js",
+      "reason": "200",
+      "bytes": 8426
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/uikit/js/uikit.min.js": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/uikit/js/uikit.min.js",
+      "reason": "200",
+      "bytes": 121825
+    },
+    "https://prime-com.ru/templates/g5_helium/favicon.ico": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/favicon.ico",
+      "reason": "200",
+      "bytes": 538
+    },
+    "https://prime-com.ru/templates/g5_helium/js/owl.carousel.min.js": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/js/owl.carousel.min.js",
+      "reason": "200",
+      "bytes": 44342
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.eot": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.eot",
+      "reason": "200",
+      "bytes": 165742
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.eot?v=4.7.0": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.eot",
+      "reason": "200",
+      "bytes": 165742
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.svg?v=4.7.0": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.svg",
+      "reason": "200",
+      "bytes": 443670
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.ttf?v=4.7.0": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.ttf",
+      "reason": "200",
+      "bytes": 165548
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.woff2?v=4.7.0": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.woff2",
+      "reason": "200",
+      "bytes": 77160
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.woff?v=4.7.0": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.woff",
+      "reason": "200",
+      "bytes": 98024
+    },
+    "https://prime-com.ru/plugins/system/rokbox/assets/fonts/rokbox.eot": {
+      "ok": true,
+      "source": "live",
+      "path": "plugins/system/rokbox/assets/fonts/rokbox.eot",
+      "reason": "200",
+      "bytes": 2128
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot",
+      "reason": "200",
+      "bytes": 27859
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg",
+      "reason": "200",
+      "bytes": 239872
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf",
+      "reason": "200",
+      "bytes": 57288
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2",
+      "reason": "200",
+      "bytes": 24632
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff",
+      "reason": "200",
+      "bytes": 31288
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot",
+      "reason": "200",
+      "bytes": 28985
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg",
+      "reason": "200",
+      "bytes": 250936
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf",
+      "reason": "200",
+      "bytes": 58692
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2",
+      "reason": "200",
+      "bytes": 25608
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff",
+      "reason": "200",
+      "bytes": 32580
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot",
+      "reason": "200",
+      "bytes": 27422
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg",
+      "reason": "200",
+      "bytes": 237302
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf",
+      "reason": "200",
+      "bytes": 56776
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2",
+      "reason": "200",
+      "bytes": 24232
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff",
+      "reason": "200",
+      "bytes": 31060
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot",
+      "reason": "200",
+      "bytes": 28284
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg",
+      "reason": "200",
+      "bytes": 238198
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf",
+      "reason": "200",
+      "bytes": 57728
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2",
+      "reason": "200",
+      "bytes": 25040
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff",
+      "reason": "200",
+      "bytes": 31904
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.eot",
+      "reason": "200",
+      "bytes": 28774
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.svg",
+      "reason": "200",
+      "bytes": 146098
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.ttf",
+      "reason": "200",
+      "bytes": 89348
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff2",
+      "reason": "200",
+      "bytes": 25068
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff",
+      "reason": "200",
+      "bytes": 31584
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.eot",
+      "reason": "200",
+      "bytes": 28993
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.svg",
+      "reason": "200",
+      "bytes": 139165
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.ttf",
+      "reason": "200",
+      "bytes": 89848
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff2",
+      "reason": "200",
+      "bytes": 25368
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff",
+      "reason": "200",
+      "bytes": 31808
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.eot",
+      "reason": "200",
+      "bytes": 29157
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.svg",
+      "reason": "200",
+      "bytes": 141283
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.ttf",
+      "reason": "200",
+      "bytes": 90616
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff2",
+      "reason": "200",
+      "bytes": 25480
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff",
+      "reason": "200",
+      "bytes": 31764
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.eot",
+      "reason": "200",
+      "bytes": 28778
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.svg",
+      "reason": "200",
+      "bytes": 142272
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.ttf",
+      "reason": "200",
+      "bytes": 89380
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff2",
+      "reason": "200",
+      "bytes": 25224
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff",
+      "reason": "200",
+      "bytes": 31420
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.eot",
+      "reason": "200",
+      "bytes": 28988
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.svg",
+      "reason": "200",
+      "bytes": 140933
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.ttf",
+      "reason": "200",
+      "bytes": 90512
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff2",
+      "reason": "200",
+      "bytes": 25424
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff",
+      "reason": "200",
+      "bytes": 31668
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.eot",
+      "reason": "200",
+      "bytes": 28875
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.svg",
+      "reason": "200",
+      "bytes": 140285
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.ttf",
+      "reason": "200",
+      "bytes": 90012
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff2",
+      "reason": "200",
+      "bytes": 25400
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff",
+      "reason": "200",
+      "bytes": 31568
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot",
+      "reason": "200",
+      "bytes": 4838
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg",
+      "reason": "200",
+      "bytes": 8298
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf",
+      "reason": "200",
+      "bytes": 4644
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2",
+      "reason": "200",
+      "bytes": 2444
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff",
+      "reason": "200",
+      "bytes": 3348
+    },
+    "https://prime-com.ru/templates/g5_helium/images/owlcarousel/owl.video.play.png": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/images/owlcarousel/owl.video.play.png",
+      "reason": "200",
+      "bytes": 4976
+    },
+    "https://prime-com.ru/templates/g5_helium/images/testimonials/img01.jpg?66584b8f=": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/images/testimonials/img01.jpg",
+      "reason": "200",
+      "bytes": 173749
+    },
+    "https://prime-com.ru/A.plugins,,_system,,_rokbox,,_assets,,_styles,,_rokbox.css+templates,,_g5_helium,,_custom,,_uikit,,_css,,_uikit.min.css+media,,_gantry5,,_engines,,_nucleus,,_css-compiled,,_nucleus.css+templates,,_g5_helium,,_custom,,_css-compiled,,_helium_15.css+media,,_gantry5,,_assets,,_css,,_bootstrap-gantry.css+media,,_gantry5,,_engines,,_nucleus,,_css-compiled,,_joomla.css+media,,_jui,,_css,,_icomoon.css+media,,_gantry5,,_assets,,_css,,_font-awesome.min.css+templates,,_g5_helium,,_custom,,_css-compiled,,_helium-joomla_15.css+templates,,_g5_helium,,_custom,,_css-compiled,,_custom_15.css,Mcc.yudrS2rjyn.css.pagespeed.cf.qUVknSO1MM.css": {
+      "ok": true,
+      "source": "archive",
+      "path": "__assets/e52a4e78c5cf2f2951ddaab4.css",
+      "reason": "200",
+      "bytes": 401006
+    },
+    "https://prime-com.ru/images/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B51.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/оформление1.jpg",
+      "reason": "200",
+      "bytes": 260544
+    },
+    "https://prime-com.ru/images/1210088511_275.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1210088511_275.jpg",
+      "reason": "200",
+      "bytes": 140315
+    },
+    "https://prime-com.ru/images/1210088511_295_3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1210088511_295_3.jpg",
+      "reason": "200",
+      "bytes": 146704
+    },
+    "https://prime-com.ru/images/400x273xLak111.jpg.pagespeed.ic.R6NJEBkufn.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/400x273xLak111.jpg.pagespeed.ic.R6NJEBkufn.jpg",
+      "reason": "200",
+      "bytes": 24901
+    },
+    "https://prime-com.ru/images/400x300xLak1.jpg.pagespeed.ic.iOoQidWtEb.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/Lak1.jpg",
+      "originalAsset": "https://prime-com.ru/images/Lak1.jpg",
+      "reason": "200",
+      "bytes": 740014
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTM015-PE-GLOSSY-BH2T90M015.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTM015-PE-GLOSSY-BH2T90M015.jpg",
+      "reason": "200",
+      "bytes": 975749
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN307-PE-GLOSSY-BH2T90N307.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN307-PE-GLOSSY-BH2T90N307.jpg",
+      "reason": "200",
+      "bytes": 1053071
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN422-PE-GLOSSY-BH2T90N422.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN422-PE-GLOSSY-BH2T90N422.jpg",
+      "reason": "200",
+      "bytes": 1087000
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN424-PE-GLOSSY-BH2T90N424.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN424-PE-GLOSSY-BH2T90N424.jpg",
+      "reason": "200",
+      "bytes": 914747
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN425-PE-GLOSSY-BH2T90N425-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN425-PE-GLOSSY-BH2T90N425-3.jpg",
+      "reason": "200",
+      "bytes": 167154
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN426-PE-GLOSSY-BH2T90N426-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN426-PE-GLOSSY-BH2T90N426-3.jpg",
+      "reason": "200",
+      "bytes": 238321
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN545-PE-GLOSSY-BH2T90N545-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN545-PE-GLOSSY-BH2T90N545-1.jpg",
+      "reason": "200",
+      "bytes": 285088
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN558-PE-GLOSSY-BH2T90N558-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN558-PE-GLOSSY-BH2T90N558-3.jpg",
+      "reason": "200",
+      "bytes": 228609
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN635-PE-GLOSSY-BH2T90N635-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN635-PE-GLOSSY-BH2T90N635-3.jpg",
+      "reason": "200",
+      "bytes": 283237
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN948-PE-GLOSSY-BH2T90N948-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN948-PE-GLOSSY-BH2T90N948-3.jpg",
+      "reason": "200",
+      "bytes": 166489
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTN949-PE-GLOSSY-BH2T90N949-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTN949-PE-GLOSSY-BH2T90N949-3.jpg",
+      "reason": "200",
+      "bytes": 172619
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTR374-PE-GLOSSY-BH2T90R374-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTR374-PE-GLOSSY-BH2T90R374-3.jpg",
+      "reason": "200",
+      "bytes": 211244
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTT052-PE-GLOSSY-BH2T90T052-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTT052-PE-GLOSSY-BH2T90T052-1.jpg",
+      "reason": "200",
+      "bytes": 236361
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTW002-PE-GLOSSY-BH2T90W002-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTW002-PE-GLOSSY-BH2T90W002-1.jpg",
+      "reason": "200",
+      "bytes": 109260
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTW933-PE-GLOSSY-BH2T90W933-3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTW933-PE-GLOSSY-BH2T90W933-3.jpg",
+      "reason": "200",
+      "bytes": 118994
+    },
+    "https://prime-com.ru/images/Antik_Micropul/HMTW934-PE-GLOSSY-BH2T90W934.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Antik_Micropul/HMTW934-PE-GLOSSY-BH2T90W934.jpg",
+      "reason": "200",
+      "bytes": 585781
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METG107-PE-GLOSSY-BM2T90G107.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METG107-PE-GLOSSY-BM2T90G107.jpg",
+      "reason": "200",
+      "bytes": 86682
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METG305-EP-GLOSSY-BM3T90G305.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METG305-EP-GLOSSY-BM3T90G305.jpg",
+      "reason": "200",
+      "bytes": 109114
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METG363-PE-MATT-BM2T20G363.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METG363-PE-MATT-BM2T20G363.jpg",
+      "reason": "200",
+      "bytes": 174697
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METG488-PE-GLOSSY-BM2T90G488.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METG488-PE-GLOSSY-BM2T90G488.jpg",
+      "reason": "200",
+      "bytes": 180710
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METN514-PE-GLOSSY-BM2T90N514.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METN514-PE-GLOSSY-BM2T90N514.jpg",
+      "reason": "200",
+      "bytes": 108812
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METN515-PE-GLOSSYBM2T90N515.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METN515-PE-GLOSSYBM2T90N515.jpg",
+      "reason": "200",
+      "bytes": 152695
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METN547-PE-MATT-BM2T20N547.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METN547-PE-MATT-BM2T20N547.jpg",
+      "reason": "200",
+      "bytes": 160197
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METN790-PE-GLOSSY-BM2T90N790.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METN790-PE-GLOSSY-BM2T90N790.jpg",
+      "reason": "200",
+      "bytes": 186004
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METS614-PE-SEMI-MATT-BM2T70S641.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METS614-PE-SEMI-MATT-BM2T70S641.jpg",
+      "reason": "200",
+      "bytes": 90034
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METS636-PE-GLOSSY-BM2T90S636.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METS636-PE-GLOSSY-BM2T90S636.jpg",
+      "reason": "200",
+      "bytes": 103832
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METT061-PE-MATT-BM2T20T061.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METT061-PE-MATT-BM2T20T061.jpg",
+      "reason": "200",
+      "bytes": 140814
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METW302-PE-GLOSSY-BM2T90W302.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METW302-PE-GLOSSY-BM2T90W302.jpg",
+      "reason": "200",
+      "bytes": 86118
+    },
+    "https://prime-com.ru/images/Katalog_metalik/METW989-PE-GLOSSY-BM2T90W989.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/METW989-PE-GLOSSY-BM2T90W989.jpg",
+      "reason": "200",
+      "bytes": 220715
+    },
+    "https://prime-com.ru/images/Katalog_metalik/RAL1036-PE-GLOSSY-BM2T901036.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/RAL1036-PE-GLOSSY-BM2T901036.jpg",
+      "reason": "200",
+      "bytes": 939563
+    },
+    "https://prime-com.ru/images/Katalog_metalik/RAL7048-PE-GLOSSY-BM2T907048.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/RAL7048-PE-GLOSSY-BM2T907048.jpg",
+      "reason": "200",
+      "bytes": 106989
+    },
+    "https://prime-com.ru/images/Katalog_metalik/RAL9006-PE-GLOSSY-BM2T909006.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/RAL9006-PE-GLOSSY-BM2T909006.jpg",
+      "reason": "200",
+      "bytes": 106032
+    },
+    "https://prime-com.ru/images/Katalog_metalik/RAL9006-PE-MATT-BM2T209006.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/RAL9006-PE-MATT-BM2T209006.jpg",
+      "reason": "200",
+      "bytes": 126788
+    },
+    "https://prime-com.ru/images/Katalog_metalik/ROBOT.JPG": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/ROBOT.JPG",
+      "reason": "200",
+      "bytes": 1280102
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERK371-PE-GLOSSY-BV2T90K371.jpg.pagespeed.ic.dCKflZa5R8.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERK371-PE-GLOSSY-BV2T90K371.jpg.pagespeed.ic.dCKflZa5R8.jpg",
+      "reason": "200",
+      "bytes": 16017
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERM458-PE-GLOSSY-BV2T90M458.jpg.pagespeed.ic.bUxXdPoAvH.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERM458-PE-GLOSSY-BV2T90M458.jpg.pagespeed.ic.bUxXdPoAvH.jpg",
+      "reason": "200",
+      "bytes": 18837
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERM718-PE-GLOSSY-BV2T90M718.jpg.pagespeed.ic.LRm1XQvZqG.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERM718-PE-GLOSSY-BV2T90M718.jpg.pagespeed.ic.LRm1XQvZqG.jpg",
+      "reason": "200",
+      "bytes": 690278
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERN536-PE-GLOSSY-BV2T90N536.jpg.pagespeed.ic.tFwUm4X5xz.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERN536-PE-GLOSSY-BV2T90N536.jpg.pagespeed.ic.tFwUm4X5xz.jpg",
+      "reason": "200",
+      "bytes": 27016
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERN536-PE-MATT-BV2T20N536.jpg.pagespeed.ic.dk2jX2sNGn.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/Lak_Micropul/VERN536-PE-MATT-BV2T20N536.jpg",
+      "originalAsset": "https://prime-com.ru/images/Lak_Micropul/VERN536-PE-MATT-BV2T20N536.jpg",
+      "reason": "existing original asset",
+      "bytes": 597852
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERNIK-PE-GLOSSY-BV2T90W005.jpg.pagespeed.ic.CHmEEx0BI4.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERNIK-PE-GLOSSY-BV2T90W005.jpg.pagespeed.ic.CHmEEx0BI4.jpg",
+      "reason": "200",
+      "bytes": 24181
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERNIK-PE-MATT-BV2T20W005.jpg.pagespeed.ic.PqdNuCzO-c.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERNIK-PE-MATT-BV2T20W005.jpg.pagespeed.ic.PqdNuCzO-c.jpg",
+      "reason": "200",
+      "bytes": 680047
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERS622-PE-GLOSSY-BV2T90S622.jpg.pagespeed.ic.mWk3y3044Q.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/400x400xVERS622-PE-GLOSSY-BV2T90S622.jpg.pagespeed.ic.mWk3y3044Q.jpg",
+      "reason": "200",
+      "bytes": 19191
+    },
+    "https://prime-com.ru/images/Lak_Micropul/400x400xVERT081-PE-GLOSSY-BV2T90T081.jpg.pagespeed.ic.iQD4NmKe7J.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/Lak_Micropul/VERT081-PE-GLOSSY-BV2T90T081.jpg",
+      "originalAsset": "https://prime-com.ru/images/Lak_Micropul/VERT081-PE-GLOSSY-BV2T90T081.jpg",
+      "reason": "existing original asset",
+      "bytes": 740165
+    },
+    "https://prime-com.ru/images/Lak_Micropul/METT061-PE-MATT-BM2T20T061.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/METT061-PE-MATT-BM2T20T061.jpg",
+      "reason": "200",
+      "bytes": 814956
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERK371-PE-GLOSSY-BV2T90K371.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERK371-PE-GLOSSY-BV2T90K371.jpg",
+      "reason": "200",
+      "bytes": 501739
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERM458-PE-GLOSSY-BV2T90M458.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERM458-PE-GLOSSY-BV2T90M458.jpg",
+      "reason": "200",
+      "bytes": 649874
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERM718-PE-GLOSSY-BV2T90M718.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERM718-PE-GLOSSY-BV2T90M718.jpg",
+      "reason": "200",
+      "bytes": 690278
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERN536-PE-GLOSSY-BV2T90N536.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERN536-PE-GLOSSY-BV2T90N536.jpg",
+      "reason": "200",
+      "bytes": 820851
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERN536-PE-MATT-BV2T20N536.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERN536-PE-MATT-BV2T20N536.jpg",
+      "reason": "200",
+      "bytes": 597852
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERNIK-PE-GLOSSY-BV2T90W005.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERNIK-PE-GLOSSY-BV2T90W005.jpg",
+      "reason": "200",
+      "bytes": 720220
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERNIK-PE-MATT-BV2T20W005.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERNIK-PE-MATT-BV2T20W005.jpg",
+      "reason": "200",
+      "bytes": 680047
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERS622-PE-GLOSSY-BV2T90S622.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERS622-PE-GLOSSY-BV2T90S622.jpg",
+      "reason": "200",
+      "bytes": 512826
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERT081-PE-GLOSSY-BV2T90T081.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERT081-PE-GLOSSY-BV2T90T081.jpg",
+      "reason": "200",
+      "bytes": 740165
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERV080-PE-GLOSSY-BV2T90080.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERV080-PE-GLOSSY-BV2T90080.jpg",
+      "reason": "200",
+      "bytes": 617606
+    },
+    "https://prime-com.ru/images/Lak_Micropul/VERY628-PE-GLOSSY-BV2T90Y628.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak_Micropul/VERY628-PE-GLOSSY-BV2T90Y628.jpg",
+      "reason": "200",
+      "bytes": 697132
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL1013-PE-MATT-BD2T201013.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL1013-PE-MATT-BD2T201013.jpg",
+      "reason": "200",
+      "bytes": 323519
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL1018-PE-MATT-BD2T201018.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL1018-PE-MATT-BD2T201018.jpg",
+      "reason": "200",
+      "bytes": 356729
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL2004-PE-MATT-BD2T202004.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL2004-PE-MATT-BD2T202004.jpg",
+      "reason": "200",
+      "bytes": 561486
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL3020-PE-MATT-BD2T203020.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL3020-PE-MATT-BD2T203020.jpg",
+      "reason": "200",
+      "bytes": 536844
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL4011-PE-MATT-BM2T204011.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL4011-PE-MATT-BM2T204011.jpg",
+      "reason": "200",
+      "bytes": 557787
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL5002-PE-MATT-DBT205002.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL5002-PE-MATT-DBT205002.jpg",
+      "reason": "200",
+      "bytes": 568205
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL6005-PE-MATT-BD2T206005.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL6005-PE-MATT-BD2T206005.jpg",
+      "reason": "200",
+      "bytes": 475810
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL7021-PE-MATT-BD2T207021.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL7021-PE-MATT-BD2T207021.jpg",
+      "reason": "200",
+      "bytes": 481241
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL7035-PE-MATT-BD2T207035.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL7035-PE-MATT-BD2T207035.jpg",
+      "reason": "200",
+      "bytes": 379642
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL7037-PE-MATT-BD2T207037.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL7037-PE-MATT-BD2T207037.jpg",
+      "reason": "200",
+      "bytes": 383108
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL7040-PE-MATT-BD2T207040.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL7040-PE-MATT-BD2T207040.jpg",
+      "reason": "200",
+      "bytes": 332039
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL8014-PE-MATT-BD2T208014.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL8014-PE-MATT-BD2T208014.jpg",
+      "reason": "200",
+      "bytes": 630497
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL8017-PE-MATT-BD2T208017.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL8017-PE-MATT-BD2T208017.jpg",
+      "reason": "200",
+      "bytes": 516950
+    },
+    "https://prime-com.ru/images/Mat_Micropul/RAL9003-PE-MATT-BD2T209003.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Mat_Micropul/RAL9003-PE-MATT-BD2T209003.jpg",
+      "reason": "200",
+      "bytes": 295435
+    },
+    "https://prime-com.ru/images/Why_primcom/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B51.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/оформление1.jpg",
+      "reason": "200",
+      "bytes": 260544
+    },
+    "https://prime-com.ru/images/Why_primcom/BUXCuaHNxVgMB9qp.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/BUXCuaHNxVgMB9qp.jpg",
+      "reason": "200",
+      "bytes": 132014
+    },
+    "https://prime-com.ru/images/banners/DSC09547.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/DSC09547.jpg",
+      "reason": "200",
+      "bytes": 2457600
+    },
+    "https://prime-com.ru/images/banners/Smooth_metallic_varnish.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/Smooth_metallic_varnish.jpg",
+      "reason": "200",
+      "bytes": 26459
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-1-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-1-1.jpg",
+      "reason": "200",
+      "bytes": 413618
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-2-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-2-1.jpg",
+      "reason": "200",
+      "bytes": 395001
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-5-11.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-5-11.jpg",
+      "reason": "200",
+      "bytes": 388644
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-6-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-6-1.jpg",
+      "reason": "200",
+      "bytes": 397632
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-7-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-7-1.jpg",
+      "reason": "200",
+      "bytes": 336920
+    },
+    "https://prime-com.ru/images/banners/katalog-Ral-K7-classic-9-1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/katalog-Ral-K7-classic-9-1.jpg",
+      "reason": "200",
+      "bytes": 421628
+    },
+    "https://prime-com.ru/images/doc/PRICE2026.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/PRICE2026.pdf",
+      "reason": "200",
+      "bytes": 184449
+    },
+    "https://prime-com.ru/images/doc/PRISE_powder_coat_2024.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/PRISE_powder_coat_2024.pdf",
+      "reason": "200",
+      "bytes": 719364
+    },
+    "https://prime-com.ru/images/doc/chek_list.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/chek_list.pdf",
+      "reason": "200",
+      "bytes": 304002
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/7.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/7.png",
+      "reason": "200",
+      "bytes": 2799275
+    },
+    "https://prime-com.ru/images/oshib.doc": {
+      "ok": true,
+      "source": "live",
+      "path": "images/oshib.doc",
+      "reason": "200",
+      "bytes": 998912
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/matt.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/matt.jpg",
+      "reason": "200",
+      "bytes": 14596
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/texture.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/texture.jpg",
+      "reason": "200",
+      "bytes": 15406
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/wrinkled.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/wrinkled.jpg",
+      "reason": "200",
+      "bytes": 24782
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/xhamerton.jpg.pagespeed.ic.d_dOB29qcx.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/xhamerton.jpg.pagespeed.ic.d_dOB29qcx.jpg",
+      "reason": "200",
+      "bytes": 15055
+    },
+    "https://prime-com.ru/images/primecom/2004STR.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/2004STR.jpg",
+      "reason": "200",
+      "bytes": 59473
+    },
+    "https://prime-com.ru/images/primecom/6018STR.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/6018STR.jpg",
+      "reason": "200",
+      "bytes": 54873
+    },
+    "https://prime-com.ru/images/primecom/7040STR.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/7040STR.jpg",
+      "reason": "200",
+      "bytes": 47236
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTC100-PE-MATT-BM2T10C100.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTC100-PE-MATT-BM2T10C100.jpg",
+      "reason": "200",
+      "bytes": 1078711
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTG388-PE-MATT-BM2T10G388.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTG388-PE-MATT-BM2T10G388.jpg",
+      "reason": "200",
+      "bytes": 987338
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTG431-PE-MATT-BM2T10G431.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTG431-PE-MATT-BM2T10G431.jpg",
+      "reason": "200",
+      "bytes": 1043821
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTG508-PE-MATT-BM2T10G508.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTG508-PE-MATT-BM2T10G508.jpg",
+      "reason": "200",
+      "bytes": 909907
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTG521-PE-MATT-BM2T10G521.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTG521-PE-MATT-BM2T10G521.jpg",
+      "reason": "200",
+      "bytes": 1085501
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTGN39-PE-MATT-BM2T10GN39.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTGN39-PE-MATT-BM2T10GN39.jpg",
+      "reason": "200",
+      "bytes": 989633
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTM034-PE-MATT-BM2T10M034.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTM034-PE-MATT-BM2T10M034.jpg",
+      "reason": "200",
+      "bytes": 1036582
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTM454-PE-MATT-BM2T10M454.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTM454-PE-MATT-BM2T10M454.jpg",
+      "reason": "200",
+      "bytes": 1103883
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTN537-PE-MATT-BM2T10N537.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTN537-PE-MATT-BM2T10N537.jpg",
+      "reason": "200",
+      "bytes": 1119048
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTR003-PE-MATT-BM2T10R003.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTR003-PE-MATT-BM2T10R003.jpg",
+      "reason": "200",
+      "bytes": 1119134
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTS029-PE-MATT-BM2T10S029.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTS029-PE-MATT-BM2T10S029.jpg",
+      "reason": "200",
+      "bytes": 670883
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTS652-PE-MATT-BM2T10S652.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTS652-PE-MATT-BM2T10S652.jpg",
+      "reason": "200",
+      "bytes": 895633
+    },
+    "https://prime-com.ru/images/tekstura_micropul/MXTY023-PE-MATT-BM2T10Y023.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/MXTY023-PE-MATT-BM2T10Y023.jpg",
+      "reason": "200",
+      "bytes": 885594
+    },
+    "https://prime-com.ru/images/tekstura_micropul/TXT9003-PE-MATT-BT2T109003.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/TXT9003-PE-MATT-BT2T109003.jpg",
+      "reason": "200",
+      "bytes": 419314
+    },
+    "https://prime-com.ru/images/tekstura_micropul/TXT9005-PE-MATT-BT2T109005.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/tekstura_micropul/TXT9005-PE-MATT-BT2T109005.jpg",
+      "reason": "200",
+      "bytes": 603511
+    },
+    "https://prime-com.ru/media/gantry5/assets/css/bootstrap-gantry.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/css/bootstrap-gantry.css",
+      "reason": "200",
+      "bytes": 104788
+    },
+    "https://prime-com.ru/media/gantry5/assets/css/font-awesome.min.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/css/font-awesome.min.css",
+      "reason": "200",
+      "bytes": 31000
+    },
+    "https://prime-com.ru/media/gantry5/assets/js/main.js.pagespeed.jm.YQYShcG73q.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/js/main.js.pagespeed.jm.YQYShcG73q.js",
+      "reason": "200",
+      "bytes": 89385
+    },
+    "https://prime-com.ru/media/gantry5/engines/nucleus/css-compiled/joomla.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/engines/nucleus/css-compiled/joomla.css",
+      "reason": "200",
+      "bytes": 10162
+    },
+    "https://prime-com.ru/media/gantry5/engines/nucleus/css-compiled/nucleus.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/engines/nucleus/css-compiled/nucleus.css",
+      "reason": "200",
+      "bytes": 20312
+    },
+    "https://prime-com.ru/media/jui/css/icomoon.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/css/icomoon.css",
+      "reason": "200",
+      "bytes": 11814
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.nfVVtdSXUD.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/bootstrap.min.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.nfVVtdSXUD.js",
+      "reason": "200",
+      "bytes": 28972
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/bootstrap.min.js",
+      "reason": "200",
+      "bytes": 29126
+    },
+    "https://prime-com.ru/media/jui/js/jquery-migrate.min.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/jquery-migrate.min.js",
+      "reason": "200",
+      "bytes": 10056
+    },
+    "https://prime-com.ru/media/jui/js/jquery-noconflict.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/jquery-noconflict.js",
+      "reason": "200",
+      "bytes": 21
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.Esjhv-eXHl.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/jui/js/jquery.min.js",
+      "originalAsset": "https://prime-com.ru/media/jui/js/jquery.min.js?32f5195492218a6469ad7e252ff10bde=",
+      "reason": "existing original asset",
+      "bytes": 97646
+    },
+    "https://prime-com.ru/media/system/js/caption.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/caption.js",
+      "reason": "200",
+      "bytes": 491
+    },
+    "https://prime-com.ru/media/system/js/core.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.qf9aL-jlD_.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/core.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.qf9aL-jlD_.js",
+      "reason": "200",
+      "bytes": 8735
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.ywlvbuicbl.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/mootools-core.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.ywlvbuicbl.js",
+      "reason": "200",
+      "bytes": 83680
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.-6O1zP2hFm.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/mootools-more.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jm.-6O1zP2hFm.js",
+      "reason": "200",
+      "bytes": 232833
+    },
+    "https://prime-com.ru/plugins,_system,_rokbox,_assets,_styles,_rokbox.css+templates,_g5_helium,_custom,_uikit,_css,_uikit.min.css+media,_gantry5,_engines,_nucleus,_css-compiled,_nucleus.css+templates,_g5_helium,_custom,_css-compiled,_helium_15.css+media,_gantry5,_assets,_css,_bootstrap-gantry.css+media,_gantry5,_engines,_nucleus,_css-compiled,_joomla.css+media,_jui,_css,_icomoon.css+media,_gantry5,_assets,_css,_font-awesome.min.css+templates,_g5_helium,_custom,_css-compiled,_helium-joomla_15.css+templates,_g5_helium,_custom,_css-compiled,_custom_15.css.pagespeed.cc.yudrS2rjyn.css": {
+      "ok": true,
+      "source": "archive",
+      "path": "__assets/022204a3779227140b073c39.css",
+      "reason": "200",
+      "bytes": 425502
+    },
+    "https://prime-com.ru/plugins/system/rokbox/assets/js/rokbox.js.pagespeed.jm.38t-qcmHag.js": {
+      "ok": true,
+      "source": "live",
+      "path": "plugins/system/rokbox/assets/js/rokbox.js.pagespeed.jm.38t-qcmHag.js",
+      "reason": "200",
+      "bytes": 61892
+    },
+    "https://prime-com.ru/plugins/system/rokbox/assets/styles/rokbox.css": {
+      "ok": true,
+      "source": "live",
+      "path": "plugins/system/rokbox/assets/styles/rokbox.css",
+      "reason": "200",
+      "bytes": 31239
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/custom_15.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/custom_15.css",
+      "reason": "200",
+      "bytes": 10778
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium-joomla_15.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium-joomla_15.css",
+      "reason": "200",
+      "bytes": 31541
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium_15.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium_15.css",
+      "reason": "200",
+      "bytes": 58954
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/images/logo.png": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/images/logo.png",
+      "reason": "200",
+      "bytes": 9606
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/uikit/css/uikit.min.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/uikit/css/uikit.min.css",
+      "reason": "200",
+      "bytes": 113947
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/uikit/js/uikit.min.js.pagespeed.jm.xiXU-Fxlx9.js": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/uikit/js/uikit.min.js.pagespeed.jm.xiXU-Fxlx9.js",
+      "reason": "200",
+      "bytes": 121550
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.svg",
+      "reason": "existing download",
+      "bytes": 443670
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 165548
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.woff",
+      "reason": "existing download",
+      "bytes": 98024
+    },
+    "https://prime-com.ru/media/gantry5/assets/fonts/fontawesome-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/gantry5/assets/fonts/fontawesome-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 77160
+    },
+    "https://prime-com.ru/media/jui/fonts/IcoMoon.eot": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/fonts/IcoMoon.eot",
+      "reason": "200",
+      "bytes": 25208
+    },
+    "https://prime-com.ru/media/jui/fonts/IcoMoon.svg": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/fonts/IcoMoon.svg",
+      "reason": "200",
+      "bytes": 86043
+    },
+    "https://prime-com.ru/media/jui/fonts/IcoMoon.ttf": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/fonts/IcoMoon.ttf",
+      "reason": "200",
+      "bytes": 25044
+    },
+    "https://prime-com.ru/media/jui/fonts/IcoMoon.woff": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/fonts/IcoMoon.woff",
+      "reason": "200",
+      "bytes": 25424
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot",
+      "reason": "existing download",
+      "bytes": 27859
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg",
+      "reason": "existing download",
+      "bytes": 239872
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 57288
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31288
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 24632
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28985
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg",
+      "reason": "existing download",
+      "bytes": 250936
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 58692
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff",
+      "reason": "existing download",
+      "bytes": 32580
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25608
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot",
+      "reason": "existing download",
+      "bytes": 27422
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg",
+      "reason": "existing download",
+      "bytes": 237302
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 56776
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31060
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 24232
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28284
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg",
+      "reason": "existing download",
+      "bytes": 238198
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 57728
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31904
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25040
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28774
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.svg",
+      "reason": "existing download",
+      "bytes": 146098
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 89348
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31584
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25068
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28993
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.svg",
+      "reason": "existing download",
+      "bytes": 139165
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 89848
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31808
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25368
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.eot",
+      "reason": "existing download",
+      "bytes": 29157
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.svg",
+      "reason": "existing download",
+      "bytes": 141283
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 90616
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31764
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25480
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28778
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.svg",
+      "reason": "existing download",
+      "bytes": 142272
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 89380
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31420
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25224
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28988
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.svg",
+      "reason": "existing download",
+      "bytes": 140933
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 90512
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31668
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25424
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.eot",
+      "reason": "existing download",
+      "bytes": 28875
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.svg",
+      "reason": "existing download",
+      "bytes": 140285
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.ttf",
+      "reason": "existing download",
+      "bytes": 90012
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff",
+      "reason": "existing download",
+      "bytes": 31568
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff2",
+      "reason": "existing download",
+      "bytes": 25400
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot",
+      "reason": "existing download",
+      "bytes": 4838
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg",
+      "reason": "existing download",
+      "bytes": 8298
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf",
+      "reason": "existing download",
+      "bytes": 4644
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff",
+      "reason": "existing download",
+      "bytes": 3348
+    },
+    "https://prime-com.ru/templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2",
+      "reason": "existing download",
+      "bytes": 2444
+    },
+    "https://prime-com.ru/templates/g5_helium/images/testimonials/img01.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "templates/g5_helium/images/testimonials/img01.jpg",
+      "reason": "existing download",
+      "bytes": 173749
+    },
+    "https://prime-com.ru/images/1196x672x2024-06-17_11-17-21.png.pagespeed.ic.JRdgZUTul8.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/2024-06-17_11-17-21.png",
+      "originalAsset": "https://prime-com.ru/images/2024-06-17_11-17-21.png",
+      "reason": "200",
+      "bytes": 558834
+    },
+    "https://prime-com.ru/images/2024-06-17_09-43-59.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-43-59.png",
+      "reason": "200",
+      "bytes": 608906
+    },
+    "https://prime-com.ru/images/2024-06-17_09-44-28.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-44-28.png",
+      "reason": "200",
+      "bytes": 118381
+    },
+    "https://prime-com.ru/images/2024-06-17_09-44-47.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-44-47.png",
+      "reason": "200",
+      "bytes": 240124
+    },
+    "https://prime-com.ru/images/2024-06-17_09-45-29.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-45-29.png",
+      "reason": "200",
+      "bytes": 766415
+    },
+    "https://prime-com.ru/images/2024-06-17_09-45-54.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-45-54.png",
+      "reason": "200",
+      "bytes": 479702
+    },
+    "https://prime-com.ru/images/2024-06-17_09-46-13.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-46-13.png",
+      "reason": "200",
+      "bytes": 198086
+    },
+    "https://prime-com.ru/images/2024-06-17_09-46-34.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-46-34.png",
+      "reason": "200",
+      "bytes": 413451
+    },
+    "https://prime-com.ru/images/2024-06-17_09-47-02.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/2024-06-17_09-47-02.png",
+      "reason": "200",
+      "bytes": 165868
+    },
+    "https://prime-com.ru/images/400x252x2024-05-22_17-36-17.png.pagespeed.ic.kZV2uWqOGX.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/400x252x2024-05-22_17-36-17.png.pagespeed.ic.kZV2uWqOGX.jpg",
+      "reason": "200",
+      "bytes": 724843
+    },
+    "https://prime-com.ru/images/APS-T20.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/APS-T20.jpg",
+      "reason": "200",
+      "bytes": 102510
+    },
+    "https://prime-com.ru/images/APS_M10.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/APS_M10.png",
+      "reason": "200",
+      "bytes": 783630
+    },
+    "https://prime-com.ru/images/An_image_of_future_architecture_unusual_high_rise_buildings_wit.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/An_image_of_future_architecture_unusual_high_rise_buildings_wit.png",
+      "reason": "200",
+      "bytes": 2279488
+    },
+    "https://prime-com.ru/images/Bond_metalliki/2.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Bond_metalliki/2.jpg",
+      "reason": "200",
+      "bytes": 1605827
+    },
+    "https://prime-com.ru/images/Bond_metalliki/20260325_150811.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Bond_metalliki/20260325_150811.jpg",
+      "reason": "200",
+      "bytes": 749594
+    },
+    "https://prime-com.ru/images/Bond_metalliki/20260325_150853.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Bond_metalliki/20260325_150853.jpg",
+      "reason": "200",
+      "bytes": 682141
+    },
+    "https://prime-com.ru/images/Bond_metalliki/20260529_121648.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Bond_metalliki/20260529_121648.jpg",
+      "reason": "200",
+      "bytes": 1026646
+    },
+    "https://prime-com.ru/images/G305_grunt_zink.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/G305_grunt_zink.jpg",
+      "reason": "200",
+      "bytes": 517318
+    },
+    "https://prime-com.ru/images/Katalog_metalik/MXTS652-PE-MATT-BM2T10S652.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/MXTS652-PE-MATT-BM2T10S652.jpg",
+      "reason": "200",
+      "bytes": 895633
+    },
+    "https://prime-com.ru/images/Katalog_metalik/xMETS614-PE-SEMI-MATT-BM2T70S641.jpg.pagespeed.ic.P6JR7YBrOi.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/Katalog_metalik/METS614-PE-SEMI-MATT-BM2T70S641.jpg",
+      "originalAsset": "https://prime-com.ru/images/Katalog_metalik/METS614-PE-SEMI-MATT-BM2T70S641.jpg",
+      "reason": "existing original asset",
+      "bytes": 90034
+    },
+    "https://prime-com.ru/images/Katalog_metalik/xMETS636-PE-GLOSSY-BM2T90S636.jpg.pagespeed.ic.RJ8he-VlCc.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/xMETS636-PE-GLOSSY-BM2T90S636.jpg.pagespeed.ic.RJ8he-VlCc.jpg",
+      "reason": "200",
+      "bytes": 91224
+    },
+    "https://prime-com.ru/images/Lak1.jpg": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "images/Lak1.jpg",
+      "reason": "existing download",
+      "bytes": 740014
+    },
+    "https://prime-com.ru/images/Lak111.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Lak111.jpg",
+      "reason": "200",
+      "bytes": 78311
+    },
+    "https://prime-com.ru/images/Profi3_TSL.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Profi3_TSL.jpg",
+      "reason": "200",
+      "bytes": 49382
+    },
+    "https://prime-com.ru/images/TSL_M3XL.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/TSL_M3XL.jpg",
+      "reason": "200",
+      "bytes": 208829
+    },
+    "https://prime-com.ru/images/TSL_M5.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/TSL_M5.jpg",
+      "reason": "200",
+      "bytes": 128235
+    },
+    "https://prime-com.ru/images/TSL_M7_vibrostol.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/TSL_M7_vibrostol.jpg",
+      "reason": "200",
+      "bytes": 112214
+    },
+    "https://prime-com.ru/images/Tribo_MAX_TSL.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Tribo_MAX_TSL.jpg",
+      "reason": "200",
+      "bytes": 98582
+    },
+    "https://prime-com.ru/images/WhatsApp_Image_2024-04-20_at_17.13.13.jpeg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/WhatsApp_Image_2024-04-20_at_17.13.13.jpeg",
+      "reason": "200",
+      "bytes": 160676
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_1.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_1.png",
+      "reason": "200",
+      "bytes": 697942
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_2.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_2.png",
+      "reason": "200",
+      "bytes": 76981
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_3.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_3.png",
+      "reason": "200",
+      "bytes": 359211
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_5.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_5.png",
+      "reason": "200",
+      "bytes": 101392
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_6.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_6.png",
+      "reason": "200",
+      "bytes": 90995
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_7.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_7.png",
+      "reason": "200",
+      "bytes": 890277
+    },
+    "https://prime-com.ru/images/Why_primcom/2024-06-17_8.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2024-06-17_8.png",
+      "reason": "200",
+      "bytes": 59578
+    },
+    "https://prime-com.ru/images/banners/dostavista1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/dostavista1.jpg",
+      "reason": "200",
+      "bytes": 78045
+    },
+    "https://prime-com.ru/images/banners/millenials-gen.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/millenials-gen.jpg",
+      "reason": "200",
+      "bytes": 133974
+    },
+    "https://prime-com.ru/images/banners/powder_pigment.jpg.pagespeed.ce.yiGACECTyQ.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/images/banners/powder_pigment.jpg",
+      "path": "images/banners/powder_pigment.jpg",
+      "bytes": 513742,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/images/banners/transport1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/transport1.jpg",
+      "reason": "200",
+      "bytes": 75396
+    },
+    "https://prime-com.ru/images/banners/vozovoz1.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/vozovoz1.jpg",
+      "reason": "200",
+      "bytes": 50960
+    },
+    "https://prime-com.ru/images/banners/xzvetavto1.jpg.pagespeed.ic.ZIUHFfcfE2.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/banners/zvetavto1.jpg",
+      "originalAsset": "https://prime-com.ru/images/banners/zvetavto1.jpg",
+      "reason": "200",
+      "bytes": 82896
+    },
+    "https://prime-com.ru/images/doc/EZ-Mikropul.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/EZ-Mikropul.pdf",
+      "reason": "200",
+      "bytes": 1260901
+    },
+    "https://prime-com.ru/images/doc/Otkaznoe-pismo-ot-pozharnyh.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Otkaznoe-pismo-ot-pozharnyh.pdf",
+      "reason": "200",
+      "bytes": 677869
+    },
+    "https://prime-com.ru/images/doc/PRIMAPOX_ST-LT_%D0%A8%D0%9F%D0%90%D0%A2%D0%9B%D0%95%D0%92%D0%9A%D0%90.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/PRIMAPOX_ST-LT_ШПАТЛЕВКА.pdf",
+      "reason": "200",
+      "bytes": 554319
+    },
+    "https://prime-com.ru/images/doc/Pishhevaya-promyshlennost-GIDA_TARIM.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Pishhevaya-promyshlennost-GIDA_TARIM.pdf",
+      "reason": "200",
+      "bytes": 235583
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/1_MCROPUL_ISO_9001.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/1_MCROPUL_ISO_9001.pdf",
+      "reason": "200",
+      "bytes": 493373
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/4_coo_45347.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/4_coo_45347.pdf",
+      "reason": "200",
+      "bytes": 2860012
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/5_zakluchenia_1158.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/5_zakluchenia_1158.pdf",
+      "reason": "200",
+      "bytes": 9864151
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/6_FE-77-Protokol-ispytaniya.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/6_FE-77-Protokol-ispytaniya.pdf",
+      "reason": "200",
+      "bytes": 323886
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/7_START_protokol_prot.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/7_START_protokol_prot.pdf",
+      "reason": "200",
+      "bytes": 1555147
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/G305_ZINK.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/G305_ZINK.pdf",
+      "reason": "200",
+      "bytes": 397169
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/sertifikat_foto.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/sertifikat_foto.png",
+      "reason": "200",
+      "bytes": 392419
+    },
+    "https://prime-com.ru/images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1806.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1806.pdf",
+      "reason": "200",
+      "bytes": 2197698
+    },
+    "https://prime-com.ru/images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1989.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1989.pdf",
+      "reason": "200",
+      "bytes": 2197667
+    },
+    "https://prime-com.ru/images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1995.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2025/2025_-_C-Powd_MICROPUL_BOYA_AYID_-_P1995.pdf",
+      "reason": "200",
+      "bytes": 2197669
+    },
+    "https://prime-com.ru/images/doc/Wras-Belgesi.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Wras-Belgesi.pdf",
+      "reason": "200",
+      "bytes": 81797
+    },
+    "https://prime-com.ru/images/doc/instrulziaKalk.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/instrulziaKalk.pdf",
+      "reason": "200",
+      "bytes": 205179
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-17-43.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-17-43.png",
+      "reason": "200",
+      "bytes": 118867
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-18-03.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-18-03.png",
+      "reason": "200",
+      "bytes": 71183
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-18-36.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-18-36.png",
+      "reason": "200",
+      "bytes": 312577
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-18-57.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-18-57.png",
+      "reason": "200",
+      "bytes": 330904
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-19-16.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-19-16.png",
+      "reason": "200",
+      "bytes": 251583
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-19-37.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-19-37.png",
+      "reason": "200",
+      "bytes": 847090
+    },
+    "https://prime-com.ru/images/dveri/2024-06-17_11-20-17.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/2024-06-17_11-20-17.png",
+      "reason": "200",
+      "bytes": 432572
+    },
+    "https://prime-com.ru/images/glantsklar-m.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/glantsklar-m.png",
+      "reason": "200",
+      "bytes": 62955
+    },
+    "https://prime-com.ru/images/kalkchtainlezer1.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/kalkchtainlezer1.png",
+      "reason": "200",
+      "bytes": 393181
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/1.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/1.png",
+      "reason": "200",
+      "bytes": 1758125
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/10.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/10.png",
+      "reason": "200",
+      "bytes": 2227888
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/2.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/2.png",
+      "reason": "200",
+      "bytes": 1728015
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/4.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/4.png",
+      "reason": "200",
+      "bytes": 1344609
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/5.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/5.png",
+      "reason": "200",
+      "bytes": 1841945
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/8.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/8.png",
+      "reason": "200",
+      "bytes": 2300253
+    },
+    "https://prime-com.ru/images/karusel/new_karusel/9.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/karusel/new_karusel/9.png",
+      "reason": "200",
+      "bytes": 2003186
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x697x2024-06-24_09-43-7.png.pagespeed.ic.FG0d9B9P3T.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-43-7.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-43-7.png",
+      "reason": "200",
+      "bytes": 554613
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x699x2024-06-24_09-39-1.png.pagespeed.ic.VacL_FMKsg.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-39-1.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-39-1.png",
+      "reason": "200",
+      "bytes": 804905
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x699x2024-06-24_09-41-4.png.pagespeed.ic.K3zythSJPR.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-41-4.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-41-4.png",
+      "reason": "200",
+      "bytes": 805909
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x700x2024-06-24_09-40-3.png.pagespeed.ic.kvT64IicH8.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-40-3.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-40-3.png",
+      "reason": "200",
+      "bytes": 1111746
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x702x2024-06-24_09-41-5.png.pagespeed.ic.wZN-R8pwPq.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-41-5.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-41-5.png",
+      "reason": "200",
+      "bytes": 932120
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x702x2024-06-24_09-42-6.png.pagespeed.ic.LZXXNIY895.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-42-6.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-42-6.png",
+      "reason": "200",
+      "bytes": 778879
+    },
+    "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-43-8.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/konstrykzii_met/2024-06-24_09-43-8.png",
+      "reason": "200",
+      "bytes": 1122945
+    },
+    "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-44-9.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/konstrykzii_met/2024-06-24_09-44-9.png",
+      "reason": "200",
+      "bytes": 128400
+    },
+    "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-45-10.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/konstrykzii_met/2024-06-24_09-45-10.png",
+      "reason": "200",
+      "bytes": 454406
+    },
+    "https://prime-com.ru/images/konstrykzii_met/x2024-06-24_09-39-2.png.pagespeed.ic.6Yx-WfsbmC.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/konstrykzii_met/x2024-06-24_09-39-2.png.pagespeed.ic.6Yx-WfsbmC.png",
+      "reason": "200",
+      "bytes": 650335
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-02-01.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-02-01.png",
+      "reason": "200",
+      "bytes": 521076
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-02-20.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-02-20.png",
+      "reason": "200",
+      "bytes": 476845
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-02-38.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-02-38.png",
+      "reason": "200",
+      "bytes": 126931
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-02-56.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-02-56.png",
+      "reason": "200",
+      "bytes": 110765
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-03-16.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-03-16.png",
+      "reason": "200",
+      "bytes": 112788
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-03-36.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-03-36.png",
+      "reason": "200",
+      "bytes": 408652
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-03-58.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-03-58.png",
+      "reason": "200",
+      "bytes": 106870
+    },
+    "https://prime-com.ru/images/mebel_mettallic/new_mebel/2024-06-17_12-04-38.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/mebel_mettallic/new_mebel/2024-06-17_12-04-38.png",
+      "reason": "200",
+      "bytes": 433064
+    },
+    "https://prime-com.ru/images/original_foto/EAj62UuNjukhSn0E.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/original_foto/EAj62UuNjukhSn0E.jpg",
+      "reason": "200",
+      "bytes": 131021
+    },
+    "https://prime-com.ru/images/pistoletProfi3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/pistoletProfi3.jpg",
+      "reason": "200",
+      "bytes": 24785
+    },
+    "https://prime-com.ru/images/primecom/02/kombez-196x300.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/kombez-196x300.jpg",
+      "reason": "200",
+      "bytes": 7123
+    },
+    "https://prime-com.ru/images/primecom/02/logo.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/logo.png",
+      "reason": "200",
+      "bytes": 9606
+    },
+    "https://prime-com.ru/images/primecom/02/mask-300x180.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/mask-300x180.jpg",
+      "reason": "200",
+      "bytes": 13441
+    },
+    "https://prime-com.ru/images/primecom/02/perch-150x150.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/perch-150x150.jpg",
+      "reason": "200",
+      "bytes": 5869
+    },
+    "https://prime-com.ru/images/primecom/02/perch.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/perch.jpg",
+      "reason": "200",
+      "bytes": 15223
+    },
+    "https://prime-com.ru/images/primecom/02/perch2-300x296.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/02/perch2-300x296.jpg",
+      "reason": "200",
+      "bytes": 14391
+    },
+    "https://prime-com.ru/images/primecom/Image_for_a_widget_on_creating_advertising_videos_using_neural_n_3.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/Image_for_a_widget_on_creating_advertising_videos_using_neural_n_3.jpg",
+      "reason": "200",
+      "bytes": 175882
+    },
+    "https://prime-com.ru/images/rainiger.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/rainiger.png",
+      "reason": "200",
+      "bytes": 320186
+    },
+    "https://prime-com.ru/images/rastvoritel1.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/rastvoritel1.png",
+      "reason": "200",
+      "bytes": 460576
+    },
+    "https://prime-com.ru/images/reclama.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/reclama.png",
+      "reason": "200",
+      "bytes": 2267501
+    },
+    "https://prime-com.ru/images/smivra_APS_A20N.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/smivra_APS_A20N.png",
+      "reason": "200",
+      "bytes": 243994
+    },
+    "https://prime-com.ru/images/vibrosito.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/vibrosito.jpg",
+      "reason": "200",
+      "bytes": 144146
+    },
+    "https://prime-com.ru/images/zoloto/xzoopark.jpg.pagespeed.ic.iJ3lwbza3s.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/zoloto/xzoopark.jpg.pagespeed.ic.iJ3lwbza3s.jpg",
+      "reason": "200",
+      "bytes": 211196
+    },
+    "https://prime-com.ru/media/contacts/images/con_address.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/con_address.png",
+      "reason": "200",
+      "bytes": 448
+    },
+    "https://prime-com.ru/media/contacts/images/con_fax.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/con_fax.png",
+      "reason": "200",
+      "bytes": 408
+    },
+    "https://prime-com.ru/media/contacts/images/con_info.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/con_info.png",
+      "reason": "200",
+      "bytes": 464
+    },
+    "https://prime-com.ru/media/contacts/images/con_mobile.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/con_mobile.png",
+      "reason": "200",
+      "bytes": 544
+    },
+    "https://prime-com.ru/media/contacts/images/con_tel.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/con_tel.png",
+      "reason": "200",
+      "bytes": 510
+    },
+    "https://prime-com.ru/media/contacts/images/emailButton.png": {
+      "ok": true,
+      "source": "live",
+      "path": "media/contacts/images/emailButton.png",
+      "reason": "200",
+      "bytes": 256
+    },
+    "https://prime-com.ru/media/gantry5/assets/css/A.bootstrap-gantry.css.pagespeed.cf.M-t84f_miY.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/css/A.bootstrap-gantry.css.pagespeed.cf.M-t84f_miY.css",
+      "reason": "200",
+      "bytes": 90143
+    },
+    "https://prime-com.ru/media/gantry5/assets/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/assets/css/A.font-awesome.min.css.pagespeed.cf.jBrWCt-D4j.css",
+      "reason": "200",
+      "bytes": 30800
+    },
+    "https://prime-com.ru/media/gantry5/engines/nucleus/css-compiled/A.nucleus.css.pagespeed.cf.Y5RzwI8FZ8.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/engines/nucleus/css-compiled/A.nucleus.css.pagespeed.cf.Y5RzwI8FZ8.css",
+      "reason": "200",
+      "bytes": 17416
+    },
+    "https://prime-com.ru/media/jui,_js,_jquery-noconflict.js,qd41c08a9ffaf97969003bb0ef5d74dc5+jui,_js,_jquery-migrate.min.js,qd41c08a9ffaf97969003bb0ef5d74dc5+system,_js,_caption.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jc._JWXxM8x32.js": {
+      "ok": true,
+      "source": "archive",
+      "path": "__assets/16983a4294e139d30be7d0fc.js",
+      "reason": "200",
+      "bytes": 10811
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.nfVVtdSXUD.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/jui/js/bootstrap.min.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.nfVVtdSXUD.js",
+      "reason": "200",
+      "bytes": 28972
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jm.nfVVtdSXUD.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/jui/js/bootstrap.min.js",
+      "originalAsset": "https://prime-com.ru/media/jui/js/bootstrap.min.js?d41c08a9ffaf97969003bb0ef5d74dc5=",
+      "reason": "existing original asset",
+      "bytes": 29126
+    },
+    "https://prime-com.ru/media/jui/js/jquery-migrate.min.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery-migrate.min.js",
+      "reason": "existing download",
+      "bytes": 10056
+    },
+    "https://prime-com.ru/media/jui/js/jquery-noconflict.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery-noconflict.js",
+      "reason": "existing download",
+      "bytes": 21
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jm.Esjhv-eXHl.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/jui/js/jquery.min.js",
+      "originalAsset": "https://prime-com.ru/media/jui/js/jquery.min.js?d41c08a9ffaf97969003bb0ef5d74dc5=",
+      "reason": "existing original asset",
+      "bytes": 97646
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery.min.js",
+      "reason": "existing download",
+      "bytes": 97646
+    },
+    "https://prime-com.ru/media/plg_captcha_recaptcha/js/recaptcha.min.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/plg_captcha_recaptcha/js/recaptcha.min.js",
+      "reason": "200",
+      "bytes": 414
+    },
+    "https://prime-com.ru/media/system/js/caption.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/caption.js",
+      "reason": "existing download",
+      "bytes": 491
+    },
+    "https://prime-com.ru/media/system/js/core.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.qf9aL-jlD_.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/core.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.qf9aL-jlD_.js",
+      "reason": "200",
+      "bytes": 8734
+    },
+    "https://prime-com.ru/media/system/js/core.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jm.qf9aL-jlD_.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/system/js/core.js",
+      "originalAsset": "https://prime-com.ru/media/system/js/core.js?d41c08a9ffaf97969003bb0ef5d74dc5=",
+      "reason": "existing original asset",
+      "bytes": 8735
+    },
+    "https://prime-com.ru/media/system/js/core.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/core.js",
+      "reason": "existing download",
+      "bytes": 8735
+    },
+    "https://prime-com.ru/media/system/js/keepalive.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/keepalive.js",
+      "reason": "200",
+      "bytes": 462
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jm.ywlvbuicbl.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/system/js/mootools-core.js",
+      "originalAsset": "https://prime-com.ru/media/system/js/mootools-core.js?d41c08a9ffaf97969003bb0ef5d74dc5=",
+      "reason": "existing original asset",
+      "bytes": 83893
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/mootools-core.js",
+      "reason": "existing download",
+      "bytes": 83893
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.-6O1zP2hFm.js": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/mootools-more.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.jm.-6O1zP2hFm.js",
+      "reason": "200",
+      "bytes": 232833
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js,qd41c08a9ffaf97969003bb0ef5d74dc5.pagespeed.jm.-6O1zP2hFm.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "media/system/js/mootools-more.js",
+      "originalAsset": "https://prime-com.ru/media/system/js/mootools-more.js?d41c08a9ffaf97969003bb0ef5d74dc5=",
+      "reason": "existing original asset",
+      "bytes": 236825
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/mootools-more.js",
+      "reason": "existing download",
+      "bytes": 236825
+    },
+    "https://prime-com.ru/media/system/js/punycode.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/punycode.js",
+      "reason": "200",
+      "bytes": 2828
+    },
+    "https://prime-com.ru/media/system/js/validate.js?32f5195492218a6469ad7e252ff10bde=": {
+      "ok": true,
+      "source": "live",
+      "path": "media/system/js/validate.js",
+      "reason": "200",
+      "bytes": 3135
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/A.custom_15.css.pagespeed.cf.erwGaKsBNg.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/A.custom_15.css.pagespeed.cf.erwGaKsBNg.css",
+      "reason": "200",
+      "bytes": 10614
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/custom_19.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/custom_19.css",
+      "reason": "200",
+      "bytes": 10778
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/custom_24.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/custom_24.css",
+      "reason": "200",
+      "bytes": 10778
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium-joomla_19.css": {
+      "ok": true,
+      "source": "archive",
+      "path": "templates/g5_helium/custom/css-compiled/helium-joomla_19.css",
+      "reason": "200",
+      "bytes": 31547
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium-joomla_24.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium-joomla_24.css",
+      "reason": "200",
+      "bytes": 31541
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium_19.css": {
+      "ok": true,
+      "source": "archive",
+      "path": "templates/g5_helium/custom/css-compiled/helium_19.css",
+      "reason": "200",
+      "bytes": 58977
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium_24.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium_24.css",
+      "reason": "200",
+      "bytes": 58954
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css/animate.min.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css/animate.min.css",
+      "reason": "200",
+      "bytes": 52789
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/uikit/css/A.uikit.min.css.pagespeed.cf.DVfKC1sr70.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/uikit/css/A.uikit.min.css.pagespeed.cf.DVfKC1sr70.css",
+      "reason": "200",
+      "bytes": 113025
+    },
+    "https://prime-com.ru/templates/g5_helium/images/owlcarousel/xowl.video.play.png.pagespeed.ic.TL3hJNbNgS.png": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/images/owlcarousel/xowl.video.play.png.pagespeed.ic.TL3hJNbNgS.png",
+      "reason": "200",
+      "bytes": 2936
+    },
+    "https://prime-com.ru/templates/g5_helium/images/testimonials/ximg01.jpg,q66584b8f.pagespeed.ic.39olCyBUjO.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/images/testimonials/ximg01.jpg,q66584b8f.pagespeed.ic.39olCyBUjO.jpg",
+      "reason": "200",
+      "bytes": 152130
+    },
+    "https://prime-com.ru/images/1046x588x2024-06-17_09-45-29.png.pagespeed.ic.yX0Hj7qTrb.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1046x588x2024-06-17_09-45-29.png.pagespeed.ic.yX0Hj7qTrb.jpg",
+      "reason": "200",
+      "bytes": 766415
+    },
+    "https://prime-com.ru/images/1046x589x2024-06-17_09-44-47.png.pagespeed.ic.ekd8Vi5PSt.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1046x589x2024-06-17_09-44-47.png.pagespeed.ic.ekd8Vi5PSt.png",
+      "reason": "200",
+      "bytes": 240124
+    },
+    "https://prime-com.ru/images/1046x589x2024-06-17_09-46-13.png.pagespeed.ic.0IpHrgXuh2.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/2024-06-17_09-46-13.png",
+      "originalAsset": "https://prime-com.ru/images/2024-06-17_09-46-13.png",
+      "reason": "existing original asset",
+      "bytes": 198086
+    },
+    "https://prime-com.ru/images/1046x590x2024-06-17_09-45-54.png.pagespeed.ic.QRQhdASUaJ.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1046x590x2024-06-17_09-45-54.png.pagespeed.ic.QRQhdASUaJ.png",
+      "reason": "200",
+      "bytes": 479702
+    },
+    "https://prime-com.ru/images/1046x591x2024-06-17_09-44-28.png.pagespeed.ic.QOcqPvoF_I.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/2024-06-17_09-44-28.png",
+      "originalAsset": "https://prime-com.ru/images/2024-06-17_09-44-28.png",
+      "reason": "existing original asset",
+      "bytes": 118381
+    },
+    "https://prime-com.ru/images/1046x592x2024-06-17_09-47-02.png.pagespeed.ic.sTfVGtY9Le.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1046x592x2024-06-17_09-47-02.png.pagespeed.ic.sTfVGtY9Le.png",
+      "reason": "200",
+      "bytes": 165868
+    },
+    "https://prime-com.ru/images/1046x667x2024-06-17_09-46-34.png.pagespeed.ic.JvzqulBTkQ.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/1046x667x2024-06-17_09-46-34.png.pagespeed.ic.JvzqulBTkQ.png",
+      "reason": "200",
+      "bytes": 413451
+    },
+    "https://prime-com.ru/images/500x499xrastvoritel1.png.pagespeed.ic.jnGnXC9S8Z.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/500x499xrastvoritel1.png.pagespeed.ic.jnGnXC9S8Z.jpg",
+      "reason": "200",
+      "bytes": 460576
+    },
+    "https://prime-com.ru/images/600x450xProfi3_TSL.jpg.pagespeed.ic.npAGTWIw7p.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/600x450xProfi3_TSL.jpg.pagespeed.ic.npAGTWIw7p.jpg",
+      "reason": "200",
+      "bytes": 49382
+    },
+    "https://prime-com.ru/images/600x450xpistoletProfi3.jpg.pagespeed.ic.B-TsnKgV2t.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/600x450xpistoletProfi3.jpg.pagespeed.ic.B-TsnKgV2t.jpg",
+      "reason": "200",
+      "bytes": 24785
+    },
+    "https://prime-com.ru/images/Katalog_metalik/250x361xROBOT.JPG.pagespeed.ic.qt6UNib2N6.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Katalog_metalik/250x361xROBOT.JPG.pagespeed.ic.qt6UNib2N6.jpg",
+      "reason": "200",
+      "bytes": 13024
+    },
+    "https://prime-com.ru/images/baki.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/baki.jpg",
+      "reason": "200",
+      "bytes": 77415
+    },
+    "https://prime-com.ru/images/banners/c_8_.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/c_8_.jpg",
+      "reason": "200",
+      "bytes": 231776
+    },
+    "https://prime-com.ru/images/doc/Chek_list_2026.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Chek_list_2026.pdf",
+      "reason": "200",
+      "bytes": 359167
+    },
+    "https://prime-com.ru/images/doc/Dogovor.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Dogovor.pdf",
+      "reason": "200",
+      "bytes": 303198
+    },
+    "https://prime-com.ru/images/doc/SERTIFICAT_2024/xsertifikat_foto.png.pagespeed.ic.jx5eE9TELI.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/SERTIFICAT_2024/xsertifikat_foto.png.pagespeed.ic.jx5eE9TELI.jpg",
+      "reason": "200",
+      "bytes": 392419
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-1806-TEXTURE_MAT.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-1806-TEXTURE_MAT.pdf",
+      "reason": "200",
+      "bytes": 53727
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-2099-PE_MAT-CLASS_2.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-2099-PE_MAT-CLASS_2.pdf",
+      "reason": "200",
+      "bytes": 53976
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-2178-PE_YARI_MAT.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-2178-PE_YARI_MAT.pdf",
+      "reason": "200",
+      "bytes": 54090
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-2179-PE_PARLAK.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-2179-PE_PARLAK.pdf",
+      "reason": "200",
+      "bytes": 54273
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-2215-PE_MAT.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-2215-PE_MAT.pdf",
+      "reason": "200",
+      "bytes": 54028
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/2026-P-2233-PE-PARLAK-TGIC_FREE.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/2026-P-2233-PE-PARLAK-TGIC_FREE.pdf",
+      "reason": "200",
+      "bytes": 54119
+    },
+    "https://prime-com.ru/images/doc/Sertificat2026/TDPrimecom_MICROPUL.pdf": {
+      "ok": true,
+      "source": "live",
+      "path": "images/doc/Sertificat2026/TDPrimecom_MICROPUL.pdf",
+      "reason": "200",
+      "bytes": 8509756
+    },
+    "https://prime-com.ru/images/dveri/1196x666x2024-06-17_11-19-16.png.pagespeed.ic.BaBsMAaJBt.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/dveri/2024-06-17_11-19-16.png",
+      "originalAsset": "https://prime-com.ru/images/dveri/2024-06-17_11-19-16.png",
+      "reason": "existing original asset",
+      "bytes": 251583
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-17-43.png.pagespeed.ic.7B09b3I0Lh.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/x2024-06-17_11-17-43.png.pagespeed.ic.7B09b3I0Lh.png",
+      "reason": "200",
+      "bytes": 82838
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-18-03.png.pagespeed.ic.6n0XxN6jDp.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/dveri/2024-06-17_11-18-03.png",
+      "originalAsset": "https://prime-com.ru/images/dveri/2024-06-17_11-18-03.png",
+      "reason": "existing original asset",
+      "bytes": 71183
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-18-36.png.pagespeed.ic.8bEFTytAyx.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/dveri/2024-06-17_11-18-36.png",
+      "originalAsset": "https://prime-com.ru/images/dveri/2024-06-17_11-18-36.png",
+      "reason": "existing original asset",
+      "bytes": 312577
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-18-57.png.pagespeed.ic.3u_SFL1a3s.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/x2024-06-17_11-18-57.png.pagespeed.ic.3u_SFL1a3s.png",
+      "reason": "200",
+      "bytes": 330904
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-19-37.png.pagespeed.ic.VszENCtzdo.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/dveri/2024-06-17_11-19-37.png",
+      "originalAsset": "https://prime-com.ru/images/dveri/2024-06-17_11-19-37.png",
+      "reason": "existing original asset",
+      "bytes": 847090
+    },
+    "https://prime-com.ru/images/dveri/x2024-06-17_11-20-17.png.pagespeed.ic.fmef1utsdZ.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/dveri/x2024-06-17_11-20-17.png.pagespeed.ic.fmef1utsdZ.png",
+      "reason": "200",
+      "bytes": 342660
+    },
+    "https://prime-com.ru/images/konstrykzii_met/1240x703x2024-06-24_09-43-8.png.pagespeed.ic.hwQKZF7ZQB.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/konstrykzii_met/2024-06-24_09-43-8.png",
+      "originalAsset": "https://prime-com.ru/images/konstrykzii_met/2024-06-24_09-43-8.png",
+      "reason": "existing original asset",
+      "bytes": 1122945
+    },
+    "https://prime-com.ru/images/konstrykzii_met/x2024-06-24_09-45-10.png.pagespeed.ic.kpuILryr18.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/konstrykzii_met/x2024-06-24_09-45-10.png.pagespeed.ic.kpuILryr18.png",
+      "reason": "200",
+      "bytes": 363739
+    },
+    "https://prime-com.ru/images/logo_Primcom.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/logo_Primcom.png",
+      "reason": "200",
+      "bytes": 1114898
+    },
+    "https://prime-com.ru/images/phocafavicon/thumbs/hamerton.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/phocafavicon/thumbs/hamerton.jpg",
+      "reason": "200",
+      "bytes": 15227
+    },
+    "https://prime-com.ru/images/primecom/%D0%A1%D0%BC%D1%8B%D0%B2%D0%BA%D0%B0_APSM10%D0%90%D1%8D%D1%80%D0%BE%D0%B7%D0%BE%D0%BB%D1%8C.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/Смывка_APSM10Аэрозоль.png",
+      "reason": "200",
+      "bytes": 548248
+    },
+    "https://prime-com.ru/images/primecom/aps-a25m.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/aps-a25m.png",
+      "reason": "200",
+      "bytes": 85611
+    },
+    "https://prime-com.ru/images/primecom/collage_14.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/collage_14.jpg",
+      "reason": "200",
+      "bytes": 215854
+    },
+    "https://prime-com.ru/images/primecom/nooteh-m.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/nooteh-m.png",
+      "reason": "200",
+      "bytes": 40551
+    },
+    "https://prime-com.ru/images/primecom/rainiger-m.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/rainiger-m.jpg",
+      "reason": "200",
+      "bytes": 12010
+    },
+    "https://prime-com.ru/images/primecom/xaps-m10m.png.pagespeed.ic.-2IivlVQ0-.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/primecom/xaps-m10m.png.pagespeed.ic.-2IivlVQ0-.jpg",
+      "reason": "200",
+      "bytes": 90444
+    },
+    "https://prime-com.ru/images/x2024-06-17_09-43-59.png.pagespeed.ic.85RVXufVQM.png": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/2024-06-17_09-43-59.png",
+      "originalAsset": "https://prime-com.ru/images/2024-06-17_09-43-59.png",
+      "reason": "existing original asset",
+      "bytes": 608906
+    },
+    "https://prime-com.ru/images/xejektor.jpg.pagespeed.ic.NlN5x6-Q4c.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/xejektor.jpg.pagespeed.ic.NlN5x6-Q4c.jpg",
+      "reason": "200",
+      "bytes": 39236
+    },
+    "https://prime-com.ru/images/xreclama.png.pagespeed.ic.404Vy4jxmx.jpg": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "path": "images/reclama.png",
+      "originalAsset": "https://prime-com.ru/images/reclama.png",
+      "reason": "existing original asset",
+      "bytes": 2267501
+    },
+    "https://prime-com.ru/media,_gantry5,_assets,_css,_bootstrap-gantry.css+media,_gantry5,_engines,_nucleus,_css-compiled,_joomla.css+media,_jui,_css,_icomoon.css+media,_gantry5,_assets,_css,_font-awesome.min.css+templates,_g5_helium,_custom,_css-compiled,_helium-joomla_21.css+templates,_g5_helium,_custom,_css-compiled,_custom_21.css.pagespeed.cc.OHryjxnbWq.css": {
+      "ok": true,
+      "source": "rebuilt-from-original-assets",
+      "rebuiltFrom": [
+        "https://prime-com.ru/media/gantry5/assets/css/bootstrap-gantry.css",
+        "https://prime-com.ru/media/gantry5/engines/nucleus/css-compiled/joomla.css",
+        "https://prime-com.ru/media/jui/css/icomoon.css",
+        "https://prime-com.ru/media/gantry5/assets/css/font-awesome.min.css",
+        "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium-joomla_21.css",
+        "https://prime-com.ru/templates/g5_helium/custom/css-compiled/custom_21.css"
+      ],
+      "path": "__assets/ec2f7397dea67ab768e22d6f.css",
+      "bytes": 200892,
+      "reason": "Preserved original resource order"
+    },
+    "https://prime-com.ru/media/gantry5/A.assets,,_css,,_bootstrap-gantry.css+engines,,_nucleus,,_css-compiled,,_joomla.css,Mcc.0M0D6HuZsj.css.pagespeed.cf._rWacOO-sX.css": {
+      "ok": true,
+      "source": "live",
+      "path": "media/gantry5/A.assets,,_css,,_bootstrap-gantry.css+engines,,_nucleus,,_css-compiled,,_joomla.css,Mcc.0M0D6HuZsj.css.pagespeed.cf._rWacOO-sX.css",
+      "reason": "200",
+      "bytes": 98973
+    },
+    "https://prime-com.ru/media/jui,_js,_jquery-noconflict.js,q32f5195492218a6469ad7e252ff10bde+jui,_js,_jquery-migrate.min.js,q32f5195492218a6469ad7e252ff10bde+jui,_js,_bootstrap.min.js,q32f5195492218a6469ad7e252ff10bde+system,_js,_core.js,q32f5195492218a6469ad7e252ff10bde.pagespeed.jc.I7jz2gWJ3S.js": {
+      "ok": true,
+      "source": "rebuilt-from-original-assets",
+      "rebuiltFrom": [
+        "https://prime-com.ru/media/jui/js/jquery-noconflict.js?32f5195492218a6469ad7e252ff10bde=",
+        "https://prime-com.ru/media/jui/js/jquery-migrate.min.js?32f5195492218a6469ad7e252ff10bde=",
+        "https://prime-com.ru/media/jui/js/bootstrap.min.js?32f5195492218a6469ad7e252ff10bde=",
+        "https://prime-com.ru/media/system/js/core.js?32f5195492218a6469ad7e252ff10bde="
+      ],
+      "path": "__assets/a7f24718f78723ea48711263.js",
+      "bytes": 49575,
+      "reason": "Preserved original resource order"
+    },
+    "https://prime-com.ru/media/jui/css/icomoon.css.pagespeed.ce.2TUKsDtU0y.css": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/media/jui/css/icomoon.css",
+      "path": "media/jui/css/icomoon.css",
+      "bytes": 11853,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js?161db1647e036b88144b52ed60ee5bc3=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/bootstrap.min.js",
+      "reason": "existing download",
+      "bytes": 29126
+    },
+    "https://prime-com.ru/media/jui/js/jquery-migrate.min.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.ce.cSGZTuxTIP.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/media/jui/js/jquery-migrate.min.js?161db1647e036b88144b52ed60ee5bc3=",
+      "path": "media/jui/js/jquery-migrate.min.js",
+      "bytes": 10056,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.ce.SKGXgXknpu.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/media/jui/js/jquery.min.js?161db1647e036b88144b52ed60ee5bc3=",
+      "path": "media/jui/js/jquery.min.js",
+      "bytes": 97646,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.ce.Rx1cvfZ4Yg.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/media/system/js/mootools-more.js?161db1647e036b88144b52ed60ee5bc3=",
+      "path": "media/system/js/mootools-more.js",
+      "bytes": 236825,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/plugins,_system,_rokbox,_assets,_styles,_rokbox.css+templates,_g5_helium,_custom,_uikit,_css,_uikit.min.css+media,_gantry5,_engines,_nucleus,_css-compiled,_nucleus.css.pagespeed.cc.oRH8jDKmIJ.css": {
+      "ok": true,
+      "source": "rebuilt-from-original-assets",
+      "rebuiltFrom": [
+        "https://prime-com.ru/plugins/system/rokbox/assets/styles/rokbox.css",
+        "https://prime-com.ru/templates/g5_helium/custom/uikit/css/uikit.min.css",
+        "https://prime-com.ru/media/gantry5/engines/nucleus/css-compiled/nucleus.css"
+      ],
+      "path": "__assets/90fd0c599002cec7d25ed25b.css",
+      "bytes": 165596,
+      "reason": "Preserved original resource order"
+    },
+    "https://prime-com.ru/plugins/system/rokbox/assets/styles/rokbox.css.pagespeed.ce.I7ZGnGCjlz.css": {
+      "ok": true,
+      "source": "live",
+      "path": "plugins/system/rokbox/assets/styles/rokbox.css.pagespeed.ce.I7ZGnGCjlz.css",
+      "reason": "200",
+      "bytes": 31239
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium_21.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium_21.css",
+      "reason": "200",
+      "bytes": 58954
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/helium-joomla_21.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/helium-joomla_21.css",
+      "bytes": 31541,
+      "reason": "200"
+    },
+    "https://prime-com.ru/templates/g5_helium/custom/css-compiled/custom_21.css": {
+      "ok": true,
+      "source": "live",
+      "path": "templates/g5_helium/custom/css-compiled/custom_21.css",
+      "bytes": 10778,
+      "reason": "200"
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js,q161db1647e036b88144b52ed60ee5bc3.pagespeed.ce.2um-24geT6.js": {
+      "ok": true,
+      "source": "live-original-before-pagespeed",
+      "originalAsset": "https://prime-com.ru/media/system/js/mootools-core.js?161db1647e036b88144b52ed60ee5bc3=",
+      "path": "media/system/js/mootools-core.js",
+      "bytes": 83893,
+      "reason": "Recovered original resource"
+    },
+    "https://prime-com.ru/images/Why_primcom/2025-02-09_12-26-53.png": {
+      "ok": true,
+      "source": "live",
+      "path": "images/Why_primcom/2025-02-09_12-26-53.png",
+      "reason": "200",
+      "bytes": 1690884
+    },
+    "https://prime-com.ru/images/banners/sea-marine.jpg": {
+      "ok": true,
+      "source": "live",
+      "path": "images/banners/sea-marine.jpg",
+      "reason": "200",
+      "bytes": 112404
+    },
+    "https://prime-com.ru/media/jui/js/bootstrap.min.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/bootstrap.min.js",
+      "reason": "existing download",
+      "bytes": 29126
+    },
+    "https://prime-com.ru/media/jui/js/jquery-migrate.min.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery-migrate.min.js",
+      "reason": "existing download",
+      "bytes": 10056
+    },
+    "https://prime-com.ru/media/jui/js/jquery-noconflict.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery-noconflict.js",
+      "reason": "existing download",
+      "bytes": 21
+    },
+    "https://prime-com.ru/media/jui/js/jquery.min.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/jui/js/jquery.min.js",
+      "reason": "existing download",
+      "bytes": 97646
+    },
+    "https://prime-com.ru/media/system/js/caption.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/caption.js",
+      "reason": "existing download",
+      "bytes": 491
+    },
+    "https://prime-com.ru/media/system/js/core.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/core.js",
+      "reason": "existing download",
+      "bytes": 8735
+    },
+    "https://prime-com.ru/media/system/js/mootools-core.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/mootools-core.js",
+      "reason": "existing download",
+      "bytes": 83893
+    },
+    "https://prime-com.ru/media/system/js/mootools-more.js?d41c08a9ffaf97969003bb0ef5d74dc5=": {
+      "ok": true,
+      "source": "downloaded",
+      "path": "media/system/js/mootools-more.js",
+      "reason": "existing download",
+      "bytes": 236825
+    }
+  },
+  "externalDomains": [
+    "docs.gantry.org",
+    "dzen.ru",
+    "gantry.org",
+    "marketing.rbc.ru",
+    "t.me",
+    "ura.news",
+    "vk.com",
+    "www.facebook.com",
+    "www.google.com",
+    "www.lkmportal.com",
+    "www.polymerspaintcolourjournal.com",
+    "www.rustore.ru",
+    "www.twitter.com",
+    "www.youtube.com",
+    "yandex.ru"
+  ]
+}
