@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist');
@@ -9,6 +10,8 @@ if (!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(base)) throw new Error('DEMO_BASE must be 
 const routes = JSON.parse(fs.readFileSync(path.join(root, 'routes.json')));
 const origin = 'https://prime-com.ru';
 const robots = '<meta name="robots" content="noindex, nofollow, noarchive"><meta name="googlebot" content="noindex, nofollow, noarchive">';
+const demoStyle = '/* Keep embedded content usable on narrow screens. */\niframe,video{max-width:100%}img{max-width:100%;height:auto}.contact-form fieldset[disabled]{opacity:.65}#demo-form-note{font-size:1rem;line-height:1.5}\n@media(max-width:767px){#g-navigation img{margin-left:2.5rem}table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}}\n';
+const styleVersion = createHash('sha256').update(demoStyle).digest('hex').slice(0,12);
 const escape = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
 const normalize = url => {
   const params = [...url.searchParams].sort(([a,av],[b,bv]) => a<b?-1:a>b?1:av<bv?-1:av>bv?1:0);
@@ -56,7 +59,7 @@ function page(text, context) {
     form = form.replace(/<form\b[^>]*>/i, '<form class="form-horizontal well" id="contact-form" onsubmit="return false" aria-describedby="demo-form-note"><p id="demo-form-note" role="note"><strong>Демонстрация:</strong> отправка и сохранение заявок отключены.</p><fieldset disabled>');
     return form.replace(/<\/form>/i, '</fieldset></form>');
   });
-  return text.replace(/<\/head>/i, robots + '\n<link rel="stylesheet" href="'+base+'demo.css">\n</head>');
+  return text.replace(/<\/head>/i, robots + '\n<link rel="stylesheet" href="'+base+'demo.css?v='+styleVersion+'">\n</head>');
 }
 function write(relative, content) {
   const filename = path.join(out,relative);
@@ -83,7 +86,7 @@ for(const [url,record] of Object.entries(routes)) {
 }
 write('.nojekyll','');
 write('robots.txt','User-agent: *\nDisallow: /\n');
-write('demo.css', '/* Keep embedded content usable on narrow screens. */\niframe,video{max-width:100%}img{max-width:100%;height:auto}.contact-form fieldset[disabled]{opacity:.65}#demo-form-note{font-size:1rem;line-height:1.5}\n@media(max-width:767px){#g-navigation img{margin-left:2.5rem}table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}}\n');
+write('demo.css', demoStyle);
 write('404.html',`<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">${robots}<title>Страница не найдена</title></head><body><h1>Страница не найдена</h1><p><a href="${base}">Открыть каталог ПраймКом</a></p></body></html>`);
 write('README.md',`# Статическая демонстрация ПраймКом\n\nИсходники и инструкции: https://github.com/Kibosh13/primecom-copy/tree/main\n\n${pages} страниц и ${redirects} перенаправления. Формы не отправляют и не сохраняют данные. Сервер Node.js, почтовая доставка, административная панель, чат-бот и аналитика здесь не запускаются. Внешние карты и ссылки требуют интернета.\n\nВсе HTML-страницы содержат noindex, nofollow, noarchive. robots.txt запрещает обход. Это указания поисковикам, а не ограничение доступа к публичной демонстрации.\n\nОбновляйте через npm run deploy:demo из main. Не редактируйте эту ветку вручную.\n`);
 console.log(`Static demo: ${pages} pages, ${redirects} redirects, base ${base}, output ${out}`);
