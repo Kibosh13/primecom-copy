@@ -1,2 +1,3 @@
-/* Keep fixed-width embedded maps and articles inside narrow screens. */
+/* Keep embedded content usable on narrow screens. */
 iframe,video{max-width:100%}img{max-width:100%;height:auto}.contact-form fieldset[disabled]{opacity:.65}#demo-form-note{font-size:1rem;line-height:1.5}
+@media(max-width:767px){#g-navigation img{margin-left:2.5rem}table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}}
