@@ -83,7 +83,7 @@ for(const [url,record] of Object.entries(routes)) {
 }
 write('.nojekyll','');
 write('robots.txt','User-agent: *\nDisallow: /\n');
-write('demo.css', '/* Keep fixed-width embedded maps and articles inside narrow screens. */\niframe,video{max-width:100%}img{max-width:100%;height:auto}.contact-form fieldset[disabled]{opacity:.65}#demo-form-note{font-size:1rem;line-height:1.5}\n');
+write('demo.css', '/* Keep embedded content usable on narrow screens. */\niframe,video{max-width:100%}img{max-width:100%;height:auto}.contact-form fieldset[disabled]{opacity:.65}#demo-form-note{font-size:1rem;line-height:1.5}\n@media(max-width:767px){#g-navigation img{margin-left:2.5rem}table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}}\n');
 write('404.html',`<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">${robots}<title>Страница не найдена</title></head><body><h1>Страница не найдена</h1><p><a href="${base}">Открыть каталог ПраймКом</a></p></body></html>`);
 write('README.md',`# Статическая демонстрация ПраймКом\n\nИсходники и инструкции: https://github.com/Kibosh13/primecom-copy/tree/main\n\n${pages} страниц и ${redirects} перенаправления. Формы не отправляют и не сохраняют данные. Сервер Node.js, почтовая доставка, административная панель, чат-бот и аналитика здесь не запускаются. Внешние карты и ссылки требуют интернета.\n\nВсе HTML-страницы содержат noindex, nofollow, noarchive. robots.txt запрещает обход. Это указания поисковикам, а не ограничение доступа к публичной демонстрации.\n\nОбновляйте через npm run deploy:demo из main. Не редактируйте эту ветку вручную.\n`);
 console.log(`Static demo: ${pages} pages, ${redirects} redirects, base ${base}, output ${out}`);
