@@ -23,6 +23,6 @@ try {
   fs.cpSync(path.join(root,'dist'),temporary,{recursive:true});
   for(const key of ['user.name','user.email']) run('git',['config',key,run('git',['config',key])],temporary);
   run('git',['add','--all'],temporary);
-  if(!run('git',['status','--porcelain'])) {console.log('Demo unchanged; nothing to push.');}
+  if(!run('git',['status','--porcelain'],temporary)) {console.log('Demo unchanged; nothing to push.');}
   else {run('git',['commit','-m',`Publish static demo from main ${source}`],temporary);run('git',['push','origin','gh-pages'],temporary);console.log('Published demo commit '+run('git',['rev-parse','HEAD'],temporary));}
 } finally {fs.rmSync(temporary,{recursive:true,force:true});}
