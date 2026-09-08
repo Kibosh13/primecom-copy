@@ -848,6 +848,20 @@
       "reason": "200",
       "title": "Рост курса валют",
       "bytes": 65513
+    },
+    "https://prime-com.ru/micropul.html": {
+      "ok": true,
+      "source": "client-materials",
+      "updatedAt": "2026-09-08",
+      "file": "pages/micropul.html",
+      "title": "Порошковые краски Micropul"
+    },
+    "https://prime-com.ru/produktsiya/shpatlevka-epo-strong.html": {
+      "ok": true,
+      "source": "client-materials",
+      "updatedAt": "2026-09-08",
+      "file": "pages/produktsiya/shpatlevka-epo-strong.html",
+      "title": "Шпатлевка TIGER EPO Strong"
     }
   },
   "assets": {
@@ -4514,6 +4528,24 @@
       "path": "media/system/js/mootools-more.js",
       "reason": "existing download",
       "bytes": 236825
+    },
+    "local:images/products/tiger-epo-strong.jpg": {
+      "ok": true,
+      "source": "client-materials",
+      "path": "images/products/tiger-epo-strong.jpg",
+      "bytes": 45081
+    },
+    "local:images/products/ral-aerosol-cans.jpg": {
+      "ok": true,
+      "source": "client-materials",
+      "path": "images/products/ral-aerosol-cans.jpg",
+      "bytes": 44067
+    },
+    "local:styles/client-content.css": {
+      "ok": true,
+      "source": "project-source",
+      "path": "styles/client-content.css",
+      "bytes": 3544
     }
   },
   "externalDomains": [

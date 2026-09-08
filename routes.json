@@ -1,9 +1,10 @@
 {
   "/": {
     "file": "pages/index.html",
-    "title": "КАТАЛОГ",
+    "title": "ТД ПраймКом — порошковые краски Micropul и материалы для окраски",
     "source": "https://prime-com.ru/",
-    "archivedAt": ""
+    "archivedAt": "",
+    "updatedAt": "2026-09-08"
   },
   "/hydrogen/antiki.html": {
     "file": "pages/hydrogen/antiki.html",
@@ -63,13 +64,15 @@
     "file": "pages/_queries/b7aee29da0f98bfe330eb363.html",
     "title": "Аэрозольные баллоны по RAL",
     "source": "https://prime-com.ru/index.php?Itemid=119&id=14&option=com_content&view=article",
-    "archivedAt": "20260812022326"
+    "archivedAt": "20260812022326",
+    "updatedAt": "2026-09-08"
   },
   "/index.php?id=24&option=com_content&view=article": {
     "file": "pages/_queries/f8c651d05589381516972bce.html",
-    "title": "prime-com",
+    "title": "Прайс-лист Micropul",
     "source": "https://prime-com.ru/index.php?id=24&option=com_content&view=article",
-    "archivedAt": "20260514022349"
+    "archivedAt": "20260514022349",
+    "updatedAt": "2026-09-08"
   },
   "/index.php?id=26&option=com_content&view=article": {
     "file": "pages/_queries/8743214f88ea6476008323dc.html",
@@ -225,13 +228,15 @@
     "file": "pages/o-kompanii.html",
     "title": "О Компании",
     "source": "https://prime-com.ru/o-kompanii.html",
-    "archivedAt": "20260720095612"
+    "archivedAt": "20260720095612",
+    "updatedAt": "2026-09-08"
   },
   "/o-kompanii/kontakty.html": {
     "file": "pages/o-kompanii/kontakty.html",
     "title": "Контакты",
     "source": "https://prime-com.ru/o-kompanii/kontakty.html",
-    "archivedAt": "20260717112517"
+    "archivedAt": "20260717112517",
+    "updatedAt": "2026-09-08"
   },
   "/o-kompanii/oplata-i-dostavka.html": {
     "file": "pages/o-kompanii/oplata-i-dostavka.html",
@@ -315,13 +320,15 @@
     "file": "pages/produktsiya.html",
     "title": "ПРОДУКЦИЯ",
     "source": "https://prime-com.ru/produktsiya.html",
-    "archivedAt": "20260717112405"
+    "archivedAt": "20260717112405",
+    "updatedAt": "2026-09-08"
   },
   "/produktsiya/professionalnye-sprei-na-akrilovoj-osnove.html": {
     "file": "pages/produktsiya/professionalnye-sprei-na-akrilovoj-osnove.html",
     "title": "Аэрозольные баллоны по RAL",
     "source": "https://prime-com.ru/produktsiya/professionalnye-sprei-na-akrilovoj-osnove.html",
-    "archivedAt": "20260812023730"
+    "archivedAt": "20260812023730",
+    "updatedAt": "2026-09-08"
   },
   "/produktsiya/shpatlevka-primapox-refit.html": {
     "file": "pages/produktsiya/shpatlevka-primapox-refit.html",
@@ -464,5 +471,19 @@
     "source": "https://prime-com.ru/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html",
     "archivedAt": "20260812024357",
     "redirect": "/sredstva-dlya-obrabotki-poverkhnosti/moyushchee-sredstvo-rajniger-i-glantsklar.html"
+  },
+  "/micropul.html": {
+    "file": "pages/micropul.html",
+    "title": "Порошковые краски Micropul",
+    "source": "client-materials:2026-09-08",
+    "archivedAt": "",
+    "updatedAt": "2026-09-08"
+  },
+  "/produktsiya/shpatlevka-epo-strong.html": {
+    "file": "pages/produktsiya/shpatlevka-epo-strong.html",
+    "title": "Шпатлевка TIGER EPO Strong",
+    "source": "client-materials:2026-09-08",
+    "archivedAt": "",
+    "updatedAt": "2026-09-08"
   }
 }
