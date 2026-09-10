@@ -6,6 +6,9 @@
 *.p12
 *.pfx
 data/
+inquiries/
+public/.htaccess
+tmp/
 *.sqlite
 *.sqlite3
 *.db

@@ -56,7 +56,9 @@ async function contact(req,res) {
   const emailCopyRequested=Boolean(params.emailCopy || params['jform[contact_email_copy]']);
   fs.appendFileSync(path.join(dataDir,'inquiries.jsonl'),JSON.stringify({id:randomUUID(),createdAt:new Date().toISOString(),name,email,subject,message,emailCopyRequested})+'\n',{mode:0o600});
   recent.push(now);limits.set(ip,recent);
-  return respond(res,201,errorPage('Сообщение сохранено','Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'));
+  return respond(res,201,errorPage('Сообщение сохранено',process.env.NODE_ENV === 'production'
+    ? 'Спасибо! Сообщение сохранено на сервере. Для оперативного ответа напишите на <a href="mailto:info@prime-com.ru">info@prime-com.ru</a> или позвоните <a href="tel:+74959680615">+7 (495) 968-06-15</a>.'
+    : 'Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'));
 }
 
 const server=http.createServer(async (req,res)=>{

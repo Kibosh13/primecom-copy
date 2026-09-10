@@ -1,0 +1,8 @@
+# Place in the site's public_html directory. Replace account paths as needed.
+Options -Indexes
+PassengerEnabled On
+PassengerNodejs /home/i/infoprab/prime-com.ru/runtime/bin/node
+PassengerAppRoot /home/i/infoprab/prime-com.ru/app
+PassengerAppType node
+PassengerStartupFile deploy/beget/start.cjs
+PassengerAppEnv production
