@@ -2,6 +2,10 @@
 
 Используется имеющийся виртуальный хостинг, Ubuntu 22.04, Node.js 24.15.0 и Apache Passenger. Установка соответствует [инструкции Beget](https://beget.com/ru/kb/how-to/web-apps/node-js).
 
+Сайт размещён для `prime-com.ru` и `www.prime-com.ru`. В NIC.ru 10 сентября 2026 года сохранены DNS-серверы `ns1.beget.com`, `ns2.beget.com`, `ns1.beget.pro`, `ns2.beget.pro`. В зоне Beget обе A-записи указывают на `45.130.41.82` — адрес, который панель Beget потребовала для выпуска SSL. HTTP-запросы к этому адресу с обоими именами домена проверены.
+
+На момент развёртывания публичное делегирование ещё возвращало прежние DNS Яндекса и IP `195.24.65.42`. Поэтому выпуск Let's Encrypt пока не завершён: панель проверяет публичную A-запись. После обновления DNS нужно повторить установку бесплатного сертификата в разделе «Домены → prime-com.ru → Управление SSL сертификатами», проверить HTTPS для обоих имён и затем включить «Редирект с HTTP на HTTPS» в настройках сайта. До успешной проверки сертификата редирект не включать. Старый сервер следует сохранять на время распространения DNS.
+
 Структура внутри каталога сайта `prime-com.ru`:
 
 - `app/` — Git-репозиторий, ветка `main`;
@@ -19,6 +23,7 @@ cd ~/prime-com.ru/app
 git status --short
 git pull --ff-only origin main
 ../runtime/bin/node scripts/validate.mjs
+cp deploy/beget/htaccess.example public/.htaccess
 mkdir -p tmp
 touch tmp/restart.txt
 ```
