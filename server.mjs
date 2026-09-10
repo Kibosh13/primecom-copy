@@ -64,6 +64,8 @@ async function contact(req,res) {
 const server=http.createServer(async (req,res)=>{
   try {
     const url=new URL(req.url,'http://localhost');
+    // Apache rewrites legacy .php requests to / before forwarding to Passenger.
+    if (url.pathname === '/' && url.searchParams.get('option') === 'com_content') url.pathname = '/index.php';
     if(url.pathname==='/api/contact' && req.method==='POST') return await contact(req,res);
     if(!['GET','HEAD'].includes(req.method)) return respond(res,405,'Method not allowed','text/plain');
     if(url.pathname==='/api/health') return respond(res,200,JSON.stringify({ok:true}),'application/json');
