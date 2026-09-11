@@ -3,9 +3,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
+import {createCms} from './cms/server.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(root, 'public');
+const cms = createCms(root);
 const host = process.env.HOST || '127.0.0.1';
 const port = Number(process.env.PORT || 4173);
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp','.gif':'image/gif','.ico':'image/x-icon','.woff':'font/woff','.woff2':'font/woff2','.ttf':'font/ttf','.eot':'application/vnd.ms-fontobject','.pdf':'application/pdf','.mp4':'video/mp4','.webm':'video/webm','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.xls':'application/vnd.ms-excel','.zip':'application/zip'};
@@ -56,14 +58,17 @@ async function contact(req,res) {
   const emailCopyRequested=Boolean(params.emailCopy || params['jform[contact_email_copy]']);
   fs.appendFileSync(path.join(dataDir,'inquiries.jsonl'),JSON.stringify({id:randomUUID(),createdAt:new Date().toISOString(),name,email,subject,message,emailCopyRequested})+'\n',{mode:0o600});
   recent.push(now);limits.set(ip,recent);
+  const contacts=cms.store.settings().contacts;
+  const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   return respond(res,201,errorPage('Сообщение сохранено',process.env.NODE_ENV === 'production'
-    ? 'Спасибо! Сообщение сохранено на сервере. Для оперативного ответа напишите на <a href="mailto:info@prime-com.ru">info@prime-com.ru</a> или позвоните <a href="tel:+74959680615">+7 (495) 968-06-15</a>.'
+    ? `Спасибо! Сообщение сохранено на сервере. Для оперативного ответа напишите на <a href="mailto:${escape(contacts.email)}">${escape(contacts.email)}</a> или позвоните <a href="tel:${escape(contacts.phone.replace(/[^+\d]/g,''))}">${escape(contacts.phone)}</a>.`
     : 'Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'));
 }
 
 const server=http.createServer(async (req,res)=>{
   try {
     const url=new URL(req.url,'http://localhost');
+    if(await cms.handle(req,res,url))return;
     // Apache rewrites legacy .php requests to / before forwarding to Passenger.
     if (url.pathname === '/' && url.searchParams.get('option') === 'com_content') url.pathname = '/index.php';
     if(url.pathname==='/api/contact' && req.method==='POST') return await contact(req,res);
@@ -71,11 +76,15 @@ const server=http.createServer(async (req,res)=>{
     if(url.pathname==='/api/health') return respond(res,200,JSON.stringify({ok:true}),'application/json');
     let pathname;
     try {pathname=decodeURIComponent(url.pathname);} catch {return respond(res,400,'Bad path','text/plain');}
+    // Only public ACME proof files are allowed under a dot-directory.
+    const challenge=pathname.match(/^\/\.well-known\/acme-challenge\/([A-Za-z0-9_-]{1,255})$/);
+    if(challenge){const file=path.join(publicDir,'.well-known/acme-challenge',challenge[1]);if(!fs.existsSync(file)||!fs.statSync(file).isFile())return respond(res,404,'Not found','text/plain');const value=fs.readFileSync(file);res.writeHead(200,{'Content-Type':'text/plain','Content-Length':value.length,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});return res.end(req.method==='HEAD'?undefined:value);}
     if(pathname.includes('\0') || pathname.includes('\\') || pathname.split('/').some(x=>x==='..' || x.startsWith('.'))) return respond(res,403,'Forbidden','text/plain');
     const routes=JSON.parse(fs.readFileSync(path.join(root,'routes.json'),'utf8'));
     const route=routes[normalizedRoute(url)] || routes[url.pathname];
     if(route?.redirect) {res.writeHead(301,{Location:route.redirect});return res.end();}
     let filename=route ? path.join(root,route.file) : path.join(publicDir,pathname);
+    if(route){const html=cms.store.renderFile(route.file);if(html!==null){const bytes=Buffer.from(html);res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Content-Length':bytes.length,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'});return res.end(req.method==='HEAD'?undefined:bytes);}}
     const allowedRoot=route ? path.join(root,'pages') : publicDir;
     if (!filename.startsWith(allowedRoot+path.sep) || !fs.existsSync(filename) || !fs.statSync(filename).isFile())
       return respond(res,404,errorPage('Страница недоступна','Эта страница пока не восстановлена.'));
@@ -90,4 +99,4 @@ const server=http.createServer(async (req,res)=>{
     else res.end();
   }
 });
-server.listen(port,host,()=>console.log(`Local: http://${host}:${port}`));
+server.listen(port,host,()=>console.log(`Local: http://${host}:${server.address()?.port||port}`));

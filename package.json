@@ -5,9 +5,16 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "admin:setup": "node scripts/admin-bootstrap.mjs",
     "build": "node scripts/validate.mjs",
     "build:demo": "node scripts/export-demo.mjs && node scripts/validate-demo.mjs",
     "deploy:demo": "node scripts/publish-demo.mjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "parse5": "8.0.0"
+  }
 }

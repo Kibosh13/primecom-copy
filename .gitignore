@@ -7,7 +7,9 @@
 *.pfx
 data/
 inquiries/
+content/
 public/.htaccess
+public/.well-known/
 tmp/
 *.sqlite
 *.sqlite3
