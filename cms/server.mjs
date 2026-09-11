@@ -3,6 +3,7 @@ import path from "node:path";
 import { ContentStore, readJson } from "./store.mjs";
 import { AdminAuth } from "./auth.mjs";
 import { listInquiries } from "../inquiries.mjs";
+import { MaterialStore } from "./materials.mjs";
 
 export function createCms(root) {
   const production = process.env.NODE_ENV === "production",
@@ -11,6 +12,7 @@ export function createCms(root) {
     );
   const store = new ContentStore(root, dir),
     auth = new AdminAuth(dir, production);
+  const materials = new MaterialStore(root, dir, store);
   const headers = {
     "Cache-Control": "no-store",
     "X-Content-Type-Options": "nosniff",
@@ -60,7 +62,7 @@ export function createCms(root) {
       ...headers,
       "Content-Type": "text/html; charset=utf-8",
       "Content-Security-Policy": preview
-        ? "sandbox allow-scripts; frame-ancestors 'self'; form-action 'none'"
+        ? (preview === 'material' ? "sandbox allow-same-origin; script-src 'none'; frame-ancestors 'self'; form-action 'none'" : "sandbox allow-scripts; frame-ancestors 'self'; form-action 'none'")
         : "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; frame-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
     });
     res.end(text);
@@ -142,7 +144,7 @@ export function createCms(root) {
         );
         return true;
       }
-      if (p === "/admin/app.js" || p === "/admin/style.css") {
+      if (["/admin/app.js", "/admin/style.css", "/admin/materials.js", "/admin/material-config.js"].includes(p)) {
         if (!["GET", "HEAD"].includes(req.method))
           throw Object.assign(new Error("Метод не поддерживается"), {
             status: 405,
@@ -186,6 +188,9 @@ export function createCms(root) {
         });
       if (req.method === "GET") {
         if (p === "/api/admin/session") json(res, 200, session);
+        else if (p === "/api/admin/materials") json(res, 200, materials.list());
+        else if (p === "/api/admin/material") json(res, 200, materials.detail(materials.get(url.searchParams.get("id"))));
+        else if (p === "/api/admin/material-preview") html(res, materials.render(materials.get(url.searchParams.get("id")), true), 'material');
         else if (p === "/api/admin/pages") json(res, 200, store.list());
         else if (p === "/api/admin/page")
           json(res, 200, store.page(url.searchParams.get("id")));
@@ -209,6 +214,8 @@ export function createCms(root) {
         );
         if (p === "/api/admin/page")
           json(res, 200, store.save(input.id, input));
+        else if (p === "/api/admin/material")
+          json(res, input.id ? 200 : 201, materials.save(input));
         else if (p === "/api/admin/settings")
           json(res, 200, store.saveSettings(input));
         else if (p === "/api/admin/upload") json(res, 201, store.upload(input));
@@ -231,5 +238,5 @@ export function createCms(root) {
     }
     return true;
   }
-  return { handle, store };
+  return { handle, store, materials };
 }

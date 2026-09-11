@@ -1,4 +1,5 @@
 import { pageModel } from '../cms/model.mjs';
+import { materialUrl } from '../cms/materials.mjs';
 
 export const counterId = 112484093;
 export const siteOrigin = 'https://prime-com.ru';
@@ -22,7 +23,7 @@ export function withYandex(html, host, {production = process.env.NODE_ENV === 'p
   return html;
 }
 
-export function sitemapXml(store) {
+export function sitemapXml(store, materials) {
   const urls = new Set();
   for (const record of store.pages.values()) {
     const seo = pageModel(store.html(record.id)).seo;
@@ -34,6 +35,9 @@ export function sitemapXml(store) {
       if (canonical.href !== current.href) continue;
     }
     urls.add(current.href);
+  }
+  for (const record of materials?.published() || []) {
+    if (!/(?:^|[\s,])(?:noindex|none)(?:$|[\s,])/i.test(record.published.seo.robots)) urls.add(new URL(materialUrl(record.published),siteOrigin).href);
   }
   return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + [...urls].map(url => `  <url><loc>${escapeXml(url)}</loc></url>`).join('\n') + '\n</urlset>\n';
 }

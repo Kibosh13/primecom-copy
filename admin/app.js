@@ -1,3 +1,4 @@
+import {createMaterialsUi} from './materials.js';
 const $ = (q, root = document) => root.querySelector(q),
   $$ = (q, root = document) => [...root.querySelectorAll(q)];
 const e = (v) =>
@@ -11,6 +12,7 @@ const e = (v) =>
 const paths = {
   home: "M3 10 12 3l9 7v10H3ZM9 20v-7h6v7",
   pages: "M6 3h9l4 4v14H6ZM14 3v5h5M9 12h7M9 16h7",
+  materials: "M4 3h12l4 4v7M4 3v18h8M14 3v5h6M17 15v6m-3-3h6M7 12h6M7 8h3",
   media: "M3 4h18v16H3ZM3 16l5-5 4 4 4-6 5 7M8 8h.01",
   seo: "M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14m5 12 6 6",
   contacts:
@@ -30,6 +32,7 @@ const icon = (n) =>
 const sections = [
   ["home", "Обзор"],
   ["pages", "Страницы"],
+  ["materials", "Материалы"],
   ["media", "Медиатека"],
   ["seo", "SEO"],
   ["contacts", "Контакты"],
@@ -39,6 +42,7 @@ const sections = [
 const state = {
   session: null,
   pages: [],
+  materials: [],
   media: [],
   settings: null,
   page: null,
@@ -177,8 +181,10 @@ function head(title, sub, buttons = "") {
 const empty = (title, text = "") =>
   `<div class="empty"><strong>${e(title)}</strong>${e(text)}</div>`;
 function overview() {
-  const drafts = state.pages.filter((p) => p.hasDraft),
-    recent = [...state.pages]
+  const materialPages=state.materials.filter(p=>p.status!=='archived').map(p=>({...p,material:true,hasDraft:['draft','changed'].includes(p.status)})),
+    allPages=[...state.pages,...materialPages],
+    drafts = allPages.filter((p) => p.hasDraft),
+    recent = allPages
       .sort((a, b) => (b.updatedAt || "").localeCompare(a.updatedAt || ""))
       .slice(0, 6),
     home = state.pages.find((p) => p.url === "/");
@@ -186,10 +192,10 @@ function overview() {
     head(
       "Обзор сайта",
       "Всё для актуального и аккуратного сайта.",
-      `<a class="button" href="/" target="_blank" rel="noopener">Открыть сайт ${icon("open")}</a><a class="button primary" href="#page=${home.id}">Редактировать главную</a>`,
+      `<a class="button" href="/" target="_blank" rel="noopener">Открыть сайт ${icon("open")}</a><a class="button" href="#page=${home.id}">Редактировать главную</a><a class="button primary" href="#new-material">+ Добавить материал</a>`,
     ) +
     `<div class="stat-grid">${[
-      ["Страниц сайта", state.pages.length, "pages"],
+      ["Страниц и материалов", allPages.length, "pages"],
       ["Черновиков", drafts.length, "save"],
       ["Изображений", state.media.length, "media"],
     ]
@@ -199,7 +205,7 @@ function overview() {
       )
       .join(
         "",
-      )}</div><div class="overview-grid"><section class="card"><div class="card-head"><h2>Страницы сайта</h2><a href="#pages">Все страницы →</a></div>${recent.map((p) => `<a class="row-link" href="#page=${p.id}"><div><strong>${e(p.title)}</strong><small>${e(p.url)}</small></div><span class="badge ${p.hasDraft ? "draft" : ""}">${p.hasDraft ? "Черновик" : "На сайте"}</span></a>`).join("")}</section><section class="card card-pad"><h2>Как обновить страницу</h2>${[
+      )}</div><div class="overview-grid"><section class="card"><div class="card-head"><h2>Страницы сайта</h2><a href="#pages">Все страницы →</a></div>${recent.map((p) => `<a class="row-link" href="#${p.material ? "material" : "page"}=${p.id}"><div><strong>${e(p.title)}</strong><small>${e(p.url)}</small></div><span class="badge ${p.hasDraft ? "draft" : ""}">${p.hasDraft ? "Черновик" : "На сайте"}</span></a>`).join("")}</section><section class="card card-pad"><h2>Как обновить страницу</h2>${[
       ["Выберите страницу", "Откройте нужный раздел через список или поиск."],
       ["Внесите изменения", "Обновите тексты, изображения, ссылки и SEO."],
       [
@@ -223,6 +229,7 @@ function pagesView(seoOnly = false) {
       seoOnly
         ? "Заголовки, описания, canonical и изображения для социальных сетей."
         : "Выберите страницу, чтобы изменить её содержимое.",
+      `<a class="button primary" href="#new-material">+ Добавить материал</a>`,
     ) +
     `<div class="card"><div class="toolbar"><input id="page-search" type="search" placeholder="Найти страницу по названию или адресу" aria-label="Поиск страниц"><select id="page-category" aria-label="Раздел сайта"><option value="">Все разделы</option>${cats.map((c) => `<option value="${e(c)}">${e(c)}</option>`).join("")}</select></div><div class="table-wrap"><table><thead><tr><th>Страница</th><th>${seoOnly ? "Описание" : "Статус"}</th><th></th></tr></thead><tbody id="page-rows"></tbody></table></div></div>`;
   const render = () => {
@@ -698,6 +705,7 @@ function settingsView() {
   };
 }
 let previousHash = location.hash;
+const materialsUi=createMaterialsUi({api,$,$$,e,field,head,icon,toast,task,pickMedia,state,dirty,date,navigateSaved:id=>{history.replaceState(null,'','#material='+id);previousHash=location.hash;}});
 async function route() {
   if (!state.session) return;
   const hash = location.hash.slice(1) || "home";
@@ -712,12 +720,15 @@ async function route() {
   previousHash = location.hash;
   state.dirty = false;
   const params = new URLSearchParams(hash);
-  const pageId = params.get("page"),
-    active = pageId ? "pages" : hash;
+  const pageId = params.get("page"), materialId=params.get("material"),
+    active = materialId || hash === "new-material" ? "materials" : pageId ? "pages" : hash;
   shell(active);
   $("#content").innerHTML = '<div class="loading">Загрузка…</div>';
   try {
     if (pageId) await editor(pageId, params.get("tab") || "text");
+    else if (materialId) await materialsUi.editor(materialId, params.get("tab") || "content");
+    else if (hash === "new-material") await materialsUi.editor(null);
+    else if (hash === "materials") await materialsUi.list();
     else if (hash === "pages" || hash === "seo") pagesView(hash === "seo");
     else if (hash === "media") mediaView();
     else if (hash === "contacts") contactsView();
@@ -729,10 +740,11 @@ async function route() {
   }
 }
 async function start() {
-  [state.pages, state.media, state.settings] = await Promise.all([
+  [state.pages, state.media, state.settings, state.materials] = await Promise.all([
     api("pages"),
     api("media"),
     api("settings"),
+    api("materials"),
   ]);
   await route();
 }
