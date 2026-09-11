@@ -1,0 +1,9 @@
+# Круг для фавиконки ПраймКом
+
+`favicon-circle.png` — исходный PNG с прозрачным фоном. Изображение обработано встроенным инструментом image_gen по фотографии логотипа, присланной владельцем сайта 11 сентября 2026 года. Вырезан цветной круг; текст и перекрывающий круг фрагмент буквы «П» удалены с восстановлением цветов под ним.
+
+Рабочие файлы: `public/favicon.ico` (16, 32, 48, 64 px), `public/favicon-64.png` и `public/apple-touch-icon.png` (180 px). Старая иконка шаблона также заменена для совместимости со старыми сохранёнными страницами.
+
+Промпт редактирования:
+
+> Use case: precise-object-edit / background-extraction. Edit target: the supplied PrimeCom logo image. Produce a favicon asset containing ONLY the original circular rainbow color wheel on the LEFT of the image. Cut away every word and letter and remove the black background outside the circle. In particular, remove the turquoise fragment of the Cyrillic letter П that overlaps the UPPER-RIGHT of the color wheel (around 1–3 o'clock), reconstructing the yellow/green radial color segments underneath so no text strokes remain. Preserve the original wheel identity: existing radial segment arrangement, concentric translucent color bands, bright pale center, original hue orientation (magenta/red at upper-left, orange/yellow at top, green at right, cyan/blue at bottom, purple at lower-left), original subtle gloss. Do not redesign or invent a different color wheel. One single complete round wheel, front-on, centered in a square canvas with only a very narrow transparent margin (wheel fills about 96% of the canvas). GENUINELY TRANSPARENT background outside the circular edge, no solid square, no checkerboard baked into image, no shadow outside circle. No text, no letters or letter fragments, no watermark. Output a clean square PNG suitable for favicon downscaling.

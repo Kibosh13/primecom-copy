@@ -1,4 +1,4 @@
-const version = 'primecom-20260911';
+const version = 'primecom-circle-20260911';
 
 // Apply after CMS rendering so saved page revisions receive the current icon too.
 export function withFavicon(html, base = '/') {
