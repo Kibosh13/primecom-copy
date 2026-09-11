@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { ContentStore, readJson } from "./store.mjs";
 import { AdminAuth } from "./auth.mjs";
+import { listInquiries } from "../inquiries.mjs";
 
 export function createCms(root) {
   const production = process.env.NODE_ENV === "production",
@@ -193,20 +194,7 @@ export function createCms(root) {
         else if (p === "/api/admin/preview")
           html(res, store.render(url.searchParams.get("id"), true), true);
         else if (p === "/api/admin/inquiries") {
-          const file = path.join(
-            path.resolve(process.env.DATA_DIR || path.join(root, "data")),
-            "inquiries.jsonl",
-          );
-          const rows = fs.existsSync(file)
-            ? fs
-                .readFileSync(file, "utf8")
-                .trim()
-                .split("\n")
-                .filter(Boolean)
-                .slice(-200)
-                .map((line) => JSON.parse(line))
-                .reverse()
-            : [];
+          const rows = listInquiries(path.resolve(process.env.DATA_DIR || path.join(root, "data")));
           json(res, 200, rows);
         } else throw Object.assign(new Error("Не найдено"), { status: 404 });
       } else if (req.method === "POST") {

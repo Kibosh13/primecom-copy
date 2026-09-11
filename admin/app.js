@@ -678,7 +678,7 @@ async function inquiriesView() {
       "Заявки с сайта",
       "Последние 200 сообщений, сохранённых через контактную форму.",
     ) +
-    `<div class="note">Заявки сохраняются здесь. Автоматическая пересылка на почту пока не подключена.</div>${rows.length ? rows.map((row) => `<article class="card inquiry"><div class="inquiry-head"><div><h3>${e(row.subject)}</h3><small>${e(row.name)} · <a href="mailto:${e(row.email)}">${e(row.email)}</a></small></div><small>${date(row.createdAt)}</small></div><p>${e(row.message)}</p></article>`).join("") : `<div class="card">${empty("Новых заявок пока нет", "Сообщения посетителей появятся в этом разделе.")}</div>`}`;
+    `<div class="note">Заявки сохраняются здесь и отправляются на почту из раздела «Контакты».</div>${rows.length ? rows.map((row) => `<article class="card inquiry"><div class="inquiry-head"><div><h3>${e(row.subject)}</h3><small>${e(row.name)} · <a href="mailto:${e(row.email)}">${e(row.email)}</a>${row.phone ? ` · <a href="tel:${e(row.phone.replace(/[^+\d]/g, ""))}">${e(row.phone)}</a>` : ""}</small></div><small>${date(row.createdAt)}</small></div><p style="white-space:pre-wrap">${e(row.message)}</p><small>${e(({queued:"Письмо передано почтовому серверу",failed:"Письмо не отправлено — свяжитесь с клиентом по указанным контактам",pending:"Отправка письма ожидается",disabled:"Почтовая отправка не настроена"})[row.emailStatus] || "Заявка сохранена")}</small></article>`).join("") : `<div class="card">${empty("Новых заявок пока нет", "Сообщения посетителей появятся в этом разделе.")}</div>`}`;
 }
 function settingsView() {
   $("#content").innerHTML =

@@ -1,0 +1,22 @@
+.pc-inquiry{box-sizing:border-box;width:min(560px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:32px;border:0;border-radius:14px;background:#fff;color:#252a30;box-shadow:0 24px 80px #0004;font:16px/1.5 Arial,sans-serif;overflow:auto}
+.pc-inquiry::backdrop{background:rgba(10,28,37,.65)}
+.pc-inquiry h2{margin:0 32px 12px 0;font-size:28px;line-height:1.2;color:#172127;letter-spacing:-.025em}
+.pc-inquiry .pc-inquiry-eyebrow{margin:0 0 10px;color:#086b8f;text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:700}
+.pc-inquiry .pc-inquiry-intro{margin:0 0 24px;color:#59636b;font-size:15px;line-height:1.55}
+.pc-inquiry .pc-inquiry-close{position:absolute;right:14px;top:12px;width:40px;height:40px;padding:0;background:#f0f4f6;color:#33434d;border:0;border-radius:50%;font:28px/40px Arial;cursor:pointer}
+.pc-inquiry-fields{display:grid;gap:16px}
+.pc-inquiry .pc-inquiry-fields label{display:block;margin:0;font-size:14px;font-weight:700}
+.pc-inquiry .pc-inquiry-fields input,.pc-inquiry .pc-inquiry-fields textarea{box-sizing:border-box;display:block;width:100%;height:auto;min-height:46px;margin:6px 0 0;padding:11px 12px;border:1px solid #c7d1d8;border-radius:6px;background:#fff;color:#252a30;font:16px/1.45 Arial,sans-serif;box-shadow:none}
+.pc-inquiry .pc-inquiry-fields textarea{min-height:112px;resize:vertical}
+.pc-inquiry input:focus,.pc-inquiry textarea:focus{outline:2px solid #086b8f;outline-offset:1px;border-color:#086b8f}
+.pc-inquiry button:focus-visible{outline:3px solid #25a8d2;outline-offset:3px}
+.pc-inquiry .pc-inquiry-note{margin:16px 0;color:#67737d;font-size:12px;line-height:1.5}
+.pc-inquiry .pc-inquiry-status{margin:12px 0;color:#246342;font-size:15px}
+.pc-inquiry .pc-inquiry-status:empty{display:none}
+.pc-inquiry .pc-inquiry-status.is-error{color:#b52a2a}
+.pc-inquiry .pc-inquiry-submit{width:100%;padding:14px 20px;border:0;border-radius:6px;background:#086b8f;color:#fff;font:700 16px/1.4 Arial,sans-serif;cursor:pointer}
+.pc-inquiry .pc-inquiry-submit:hover{background:#054b66}
+.pc-inquiry .pc-inquiry-submit:disabled{opacity:.6;cursor:default}
+.pc-inquiry-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.pc-inquiry-demo{padding:12px;background:#fff2cd;border-radius:6px;font-size:14px}
+@media(max-width:480px){.pc-inquiry{padding:26px 20px;width:calc(100vw - 24px);max-height:calc(100dvh - 24px)}.pc-inquiry h2{font-size:25px}.pc-inquiry .pc-inquiry-intro{margin-bottom:18px}}

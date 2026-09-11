@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
+import {withFavicon} from '../branding.mjs';
+import {withInquiryForm} from '../inquiry-ui.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist');
@@ -64,7 +66,7 @@ function page(text, context) {
 function write(relative, content) {
   const filename = path.join(out,relative);
   fs.mkdirSync(path.dirname(filename), {recursive:true});
-  fs.writeFileSync(filename, content);
+  fs.writeFileSync(filename, relative.endsWith('.html') ? withFavicon(withInquiryForm(content, {base, demo:true}), base) : content);
 }
 // Only the generated dist directory is replaced. Source files and runtime data are untouched.
 fs.rmSync(out,{recursive:true,force:true}); fs.mkdirSync(out,{recursive:true});

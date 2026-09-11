@@ -2,7 +2,7 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {randomUUID} from 'node:crypto';
+import {createContactHandler} from './inquiries.mjs';
 import {createCms} from './cms/server.mjs';
 import {withYandex, sitemapXml, verificationCode} from './integrations/yandex.mjs';
 
@@ -25,46 +25,7 @@ function errorPage(title, message) {
   return `<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>${title}</title><body style="font:18px/1.6 Arial,sans-serif;max-width:760px;margin:10vh auto;padding:24px"><h1>${title}</h1><p>${message}</p><p><a href="/">На главную</a> · <a href="/o-kompanii/kontakty.html">Контакты</a></p></body></html>`;
 }
 
-const limits = new Map();
-async function contact(req,res) {
-  const origin=req.headers.origin;
-  if (origin) {
-    try {if (new URL(origin).host !== req.headers.host) return respond(res,403,'Forbidden','text/plain');}
-    catch {return respond(res,403,'Forbidden','text/plain');}
-  }
-  const ip=req.socket.remoteAddress || '';
-  const now=Date.now();
-  const recent=(limits.get(ip)||[]).filter(t=>now-t<600000);
-  if (recent.length>=5) return respond(res,429,errorPage('Слишком много сообщений','Попробуйте отправить сообщение позже.'));
-  let size=0, chunks=[];
-  for await (const chunk of req) {
-    size+=chunk.length;
-    if(size>32768) return respond(res,413,errorPage('Сообщение слишком большое','Сократите текст сообщения.'));
-    chunks.push(chunk);
-  }
-  let params;
-  try {
-    const body=Buffer.concat(chunks).toString('utf8');
-    params=req.headers['content-type']?.includes('application/json') ? JSON.parse(body) : Object.fromEntries(new URLSearchParams(body));
-  } catch {return respond(res,400,'Bad request','text/plain');}
-  const name=String(params.name||params['jform[contact_name]']||'').trim().slice(0,200);
-  const email=String(params.email||params['jform[contact_email]']||'').trim().slice(0,254);
-  const subject=String(params.subject||params['jform[contact_subject]']||'').trim().slice(0,300);
-  const message=String(params.message||params['jform[contact_message]']||'').trim().slice(0,10000);
-  if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !subject || !message)
-    return respond(res,400,errorPage('Проверьте сообщение','Укажите имя, корректный email, тему и текст сообщения.'));
-  if (params.website) return respond(res,400,'Bad request','text/plain');
-  const dataDir=process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.join(root,'data');
-  fs.mkdirSync(dataDir,{recursive:true,mode:0o700});
-  const emailCopyRequested=Boolean(params.emailCopy || params['jform[contact_email_copy]']);
-  fs.appendFileSync(path.join(dataDir,'inquiries.jsonl'),JSON.stringify({id:randomUUID(),createdAt:new Date().toISOString(),name,email,subject,message,emailCopyRequested})+'\n',{mode:0o600});
-  recent.push(now);limits.set(ip,recent);
-  const contacts=cms.store.settings().contacts;
-  const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  return respond(res,201,withYandex(errorPage('Сообщение сохранено',process.env.NODE_ENV === 'production'
-    ? `Спасибо! Сообщение сохранено на сервере. Для оперативного ответа напишите на <a href="mailto:${escape(contacts.email)}">${escape(contacts.email)}</a> или позвоните <a href="tel:${escape(contacts.phone.replace(/[^+\d]/g,''))}">${escape(contacts.phone)}</a>.`
-    : 'Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'), req.headers.host, {contactSent:true}));
-}
+const contact=createContactHandler({root,store:cms.store,respond,errorPage,withYandex});
 
 const server=http.createServer(async (req,res)=>{
   try {

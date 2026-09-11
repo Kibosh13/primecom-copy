@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash, randomUUID } from "node:crypto";
+import { withFavicon } from "../branding.mjs";
+import { withInquiryForm } from "../inquiry-ui.mjs";
 import {
   pageModel,
   editPage,
@@ -241,13 +243,13 @@ export class ContentStore {
   }
   render(id, draft = false) {
     const settings = this.settings();
-    return applyGlobals(
+    return withFavicon(withInquiryForm(applyGlobals(
       this.html(id, { draft }),
       settings,
       Object.keys(settings.mediaReplacements).length
         ? String(settings.version)
         : "",
-    );
+    )));
   }
   renderFile(file) {
     const id = digest(file).slice(0, 16);
