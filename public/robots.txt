@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin
+
+Sitemap: https://prime-com.ru/sitemap.xml

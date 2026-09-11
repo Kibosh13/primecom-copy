@@ -4,6 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
 import {createCms} from './cms/server.mjs';
+import {withYandex, sitemapXml, verificationCode} from './integrations/yandex.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(root, 'public');
@@ -60,9 +61,9 @@ async function contact(req,res) {
   recent.push(now);limits.set(ip,recent);
   const contacts=cms.store.settings().contacts;
   const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  return respond(res,201,errorPage('Сообщение сохранено',process.env.NODE_ENV === 'production'
+  return respond(res,201,withYandex(errorPage('Сообщение сохранено',process.env.NODE_ENV === 'production'
     ? `Спасибо! Сообщение сохранено на сервере. Для оперативного ответа напишите на <a href="mailto:${escape(contacts.email)}">${escape(contacts.email)}</a> или позвоните <a href="tel:${escape(contacts.phone.replace(/[^+\d]/g,''))}">${escape(contacts.phone)}</a>.`
-    : 'Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'));
+    : 'Спасибо! Сообщение сохранено. В этой локальной версии отправка по электронной почте ещё не подключена.'), req.headers.host, {contactSent:true}));
 }
 
 const server=http.createServer(async (req,res)=>{
@@ -73,6 +74,9 @@ const server=http.createServer(async (req,res)=>{
     if (url.pathname === '/' && url.searchParams.get('option') === 'com_content') url.pathname = '/index.php';
     if(url.pathname==='/api/contact' && req.method==='POST') return await contact(req,res);
     if(!['GET','HEAD'].includes(req.method)) return respond(res,405,'Method not allowed','text/plain');
+    if(url.pathname==='/sitemap.xml') return respond(res,200,req.method==='HEAD'?'':sitemapXml(cms.store),'application/xml; charset=utf-8');
+    if(url.pathname===`/yandex_${verificationCode}.html`) return respond(res,200,req.method==='HEAD'?'':`<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>Verification: ${verificationCode}</body></html>`);
+    if(url.pathname==='/site-analytics.js') return respond(res,200,req.method==='HEAD'?'':fs.readFileSync(path.join(root,'integrations/site-analytics.js'),'utf8'),'text/javascript; charset=utf-8');
     if(url.pathname==='/api/health') return respond(res,200,JSON.stringify({ok:true}),'application/json');
     let pathname;
     try {pathname=decodeURIComponent(url.pathname);} catch {return respond(res,400,'Bad path','text/plain');}
@@ -84,7 +88,7 @@ const server=http.createServer(async (req,res)=>{
     const route=routes[normalizedRoute(url)] || routes[url.pathname];
     if(route?.redirect) {res.writeHead(301,{Location:route.redirect});return res.end();}
     let filename=route ? path.join(root,route.file) : path.join(publicDir,pathname);
-    if(route){const html=cms.store.renderFile(route.file);if(html!==null){const bytes=Buffer.from(html);res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Content-Length':bytes.length,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'});return res.end(req.method==='HEAD'?undefined:bytes);}}
+    if(route){const html=cms.store.renderFile(route.file);if(html!==null){const bytes=Buffer.from(withYandex(html,req.headers.host));res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Content-Length':bytes.length,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'});return res.end(req.method==='HEAD'?undefined:bytes);}}
     const allowedRoot=route ? path.join(root,'pages') : publicDir;
     if (!filename.startsWith(allowedRoot+path.sep) || !fs.existsSync(filename) || !fs.statSync(filename).isFile())
       return respond(res,404,errorPage('Страница недоступна','Эта страница пока не восстановлена.'));
