@@ -121,7 +121,9 @@ export function createCms(root) {
       }
       if (
         production &&
-        req.headers["x-forwarded-proto"] !== "https" &&
+        // Beget's proxy chain appends its transport: "https, https".
+        // Use the nearest trusted proxy value, never a client-supplied prefix.
+        req.headers["x-forwarded-proto"]?.split(",").at(-1)?.trim() !== "https" &&
         !req.socket.encrypted
       ) {
         res.writeHead(308, { Location: "https://prime-com.ru" + req.url });

@@ -4,10 +4,12 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
+import http from "node:http";
 import { randomBytes } from "node:crypto";
 import { passwordRecord, AdminAuth } from "../cms/auth.mjs";
 import { writeJson, ContentStore, digest } from "../cms/store.mjs";
 import { pageModel, editPage } from "../cms/model.mjs";
+import { createCms } from "../cms/server.mjs";
 const root = path.resolve(import.meta.dirname, ".."),
   temp = fs.mkdtempSync(path.join(os.tmpdir(), "primecom-cms-"));
 const password = randomBytes(24).toString("base64url");
@@ -403,4 +405,34 @@ test("password rotation revokes previous sessions and logout removes access", as
   assert.equal((await request("/api/admin/logout", {})).status, 200);
   assert.equal((await request("/api/admin/session")).status, 401);
   assert.notEqual(cookie, oldCookie);
+});
+test("production admin handles Beget HTTPS proxy chains without redirect loops", async () => {
+  const originalEnv = process.env.NODE_ENV;
+  process.env.NODE_ENV = "production";
+  let cms;
+  try {
+    cms = createCms(root);
+  } finally {
+    if (originalEnv === undefined) delete process.env.NODE_ENV;
+    else process.env.NODE_ENV = originalEnv;
+  }
+  const proxy = http.createServer((req, res) => cms.handle(req, res, new URL(req.url, "http://localhost")));
+  await new Promise(resolve => proxy.listen(0, "127.0.0.1", resolve));
+  const url = `http://127.0.0.1:${proxy.address().port}/admin/`;
+  try {
+    for (const value of ["https", "https, https", "http, https"]) {
+      const response = await fetch(url, { headers: { "X-Forwarded-Proto": value }, redirect: "manual" });
+      assert.equal(response.status, 200, value);
+      assert.equal(response.headers.get("x-robots-tag"), "noindex, nofollow");
+      await response.text();
+    }
+    for (const value of [null, "http", "https, http", "https, http, http"]) {
+      const response = await fetch(url, { headers: value ? { "X-Forwarded-Proto": value } : {}, redirect: "manual" });
+      assert.equal(response.status, 308, value);
+      assert.equal(response.headers.get("location"), "https://prime-com.ru/admin/");
+      await response.text();
+    }
+  } finally {
+    await new Promise(resolve => proxy.close(resolve));
+  }
 });
