@@ -11,7 +11,7 @@
 <meta content="ТД ПраймКом — порошковые краски Micropul и материалы для окраски — ТД ПраймКом" name="description"/>
 <meta content="Joomla! - Open Source Content Management" name="generator"/>
 <title>ТД ПраймКом — порошковые краски Micropul и материалы для окраски</title>
-<link href="/primecom-copy/templates/g5_helium/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+
 <link href="/primecom-copy/plugins/system/rokbox/assets/styles/rokbox.css" rel="stylesheet"/>
 <link href="/primecom-copy/templates/g5_helium/custom/uikit/css/uikit.min.css" rel="stylesheet"/>
 <link href="/primecom-copy/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet"/>
@@ -32,6 +32,10 @@
 <script>jQuery(window).on('load',function(){new JCaption('img.caption');});if(typeof RokBoxSettings=='undefined')RokBoxSettings={pc:'100'};</script>
 <link href="/primecom-copy/styles/client-content.css?v=03cbf78fe26b" rel="stylesheet"/><meta name="robots" content="noindex, nofollow, noarchive"><meta name="googlebot" content="noindex, nofollow, noarchive">
 <link rel="stylesheet" href="/primecom-copy/demo.css?v=0b27d3518a12">
+<link rel="stylesheet" href="/primecom-copy/styles/inquiry.css?v=20260911"><script defer src="/primecom-copy/scripts/inquiry.js?v=20260911"></script>
+<link rel="icon" href="/primecom-copy/favicon.ico?v=primecom-20260911" sizes="16x16 32x32 48x48 64x64" type="image/x-icon">
+<link rel="icon" href="/primecom-copy/favicon-64.png?v=primecom-20260911" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="/primecom-copy/apple-touch-icon.png?v=primecom-20260911" sizes="180x180">
 </head>
 <body class="gantry g-helium-style site com_content view-article no-layout no-task dir-ltr itemid-114 outline-19 g-offcanvas-left g-default g-style-preset5">
 <div data-g-offcanvas-css3="1" data-g-offcanvas-swipe="1" id="g-offcanvas">
@@ -1009,5 +1013,25 @@
 <script type="text/javascript">wow=new WOW({mobile:true,offset:200});wow.init();</script>
 <script src="/primecom-copy/templates/g5_helium/js/owl.carousel.min.js" type="text/javascript"></script>
 
+<dialog id="pc-inquiry" class="pc-inquiry ym-hide-content" aria-labelledby="pc-inquiry-title" data-demo="true">
+  <button type="button" class="pc-inquiry-close" aria-label="Закрыть форму">×</button>
+  <p class="pc-inquiry-eyebrow">ТД ПраймКом</p>
+  <h2 id="pc-inquiry-title">Уточнить ассортимент</h2>
+  <p class="pc-inquiry-intro">Расскажите, какие материалы вам нужны. Мы проверим наличие и свяжемся с вами.</p>
+  <p class="pc-inquiry-demo">Демонстрация: отправка заявок отключена.</p>
+  <form id="pc-inquiry-form" >
+    <input type="hidden" name="form" value="assortment">
+    <div class="pc-inquiry-fields">
+      <label for="pc-inquiry-name">Имя<input class="ym-disable-keys" id="pc-inquiry-name" name="name" autocomplete="name" required minlength="2" maxlength="100" placeholder="Как к вам обращаться"></label>
+      <label for="pc-inquiry-email">Почта<input class="ym-disable-keys" id="pc-inquiry-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="name@example.ru"></label>
+      <label for="pc-inquiry-phone">Номер телефона<input class="ym-disable-keys" id="pc-inquiry-phone" name="phone" type="tel" autocomplete="tel" required maxlength="40" placeholder="+7 (___) ___-__-__"></label>
+      <label for="pc-inquiry-message">Ваш запрос<textarea class="ym-disable-keys" id="pc-inquiry-message" name="message" rows="4" required minlength="10" maxlength="5000" placeholder="Материал, цвет, объём или ваш вопрос"></textarea></label>
+    </div>
+    <div class="pc-inquiry-trap" aria-hidden="true"><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>
+    <p class="pc-inquiry-note">Все поля обязательны. Контактные данные нужны, чтобы ответить на ваш запрос.</p>
+    <p id="pc-inquiry-status" class="pc-inquiry-status" role="status" aria-live="polite"></p>
+    <button class="pc-inquiry-submit" type="submit" disabled>Отправить запрос</button>
+  </form>
+</dialog>
 </body>
 </html>
